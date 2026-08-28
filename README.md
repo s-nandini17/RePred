@@ -1,4 +1,4 @@
-# Protein Stability Prediction Benchmark — FireProt
+# Protein Stability Prediction Benchmark — Protein Bench
 
 Research benchmark evaluating protein design representations on experimental $\Delta\Delta G$ prediction.
 
