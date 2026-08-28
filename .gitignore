@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large binary cache files exceeding GitHub 100MB limit
+results/*.pt
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Node.js & Next.js (for web application)
+node_modules/
+.next/
+out/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

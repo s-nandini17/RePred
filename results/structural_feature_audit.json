@@ -1,0 +1,33 @@
+{
+  "total_fireprot_mutations": 3438,
+  "successfully_mapped_mutations": 3433,
+  "unmapped_mutations": 5,
+  "successfully_featurized": 3433,
+  "failed_featurization": 0,
+  "feature_dimension": 131,
+  "nan_count": 0,
+  "inf_count": 0,
+  "nearest_neighbor_min_distance_A": 2.8442015647888184,
+  "nearest_neighbor_max_distance_A": 10.03460693359375,
+  "nearest_neighbor_distances_non_negative": true,
+  "nearest_neighbor_distances_monotonic": true,
+  "contact_non_negative_verified": true,
+  "reproducibility_verified": true,
+  "feature_groups": {
+    "Spatial_Geometry": 7,
+    "Backbone_Dihedrals_Bfactor": 6,
+    "Local_AA_Composition": 20,
+    "Distance_Weighted_Composition": 20,
+    "Physicochemical_Environment": 4,
+    "Mutation_Deltas": 45,
+    "Nearest_Neighbors": 29
+  },
+  "unmapped_experiment_ids": [
+    "PT005518",
+    "PT005523",
+    "PT005526",
+    "PT005530",
+    "PT005531"
+  ],
+  "failed_experiment_ids": []
+}

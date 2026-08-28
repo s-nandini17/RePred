@@ -1,0 +1,1312 @@
+[
+  {
+    "feature_name": "contact_count_6A",
+    "feature_group": "Spatial_Geometry",
+    "dimension": 1,
+    "definition": "Number of C-alpha atoms within 6.0 Angstroms of mutated C-alpha (excluding self)",
+    "units": "count/Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "Euclidean_distance",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "contact_count_8A",
+    "feature_group": "Spatial_Geometry",
+    "dimension": 1,
+    "definition": "Number of C-alpha atoms within 8.0 Angstroms of mutated C-alpha (excluding self)",
+    "units": "count/Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "Euclidean_distance",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "contact_count_10A",
+    "feature_group": "Spatial_Geometry",
+    "dimension": 1,
+    "definition": "Number of C-alpha atoms within 10.0 Angstroms of mutated C-alpha (excluding self)",
+    "units": "count/Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "Euclidean_distance",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "contact_count_12A",
+    "feature_group": "Spatial_Geometry",
+    "dimension": 1,
+    "definition": "Number of C-alpha atoms within 12.0 Angstroms of mutated C-alpha (excluding self)",
+    "units": "count/Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "Euclidean_distance",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "packing_density_10A",
+    "feature_group": "Spatial_Geometry",
+    "dimension": 1,
+    "definition": "Local packing density (residue count within 10.0 Angstrom sphere)",
+    "units": "count/Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "Euclidean_distance",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "dist_local_COM_A",
+    "feature_group": "Spatial_Geometry",
+    "dimension": 1,
+    "definition": "Distance from mutated C-alpha to local 10A neighborhood center of mass in Angstroms",
+    "units": "count/Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "Euclidean_distance",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "dist_protein_COM_A",
+    "feature_group": "Spatial_Geometry",
+    "dimension": 1,
+    "definition": "Distance from mutated C-alpha to protein global center of mass in Angstroms",
+    "units": "count/Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "Euclidean_distance",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "sin_phi",
+    "feature_group": "Backbone_Dihedrals_Bfactor",
+    "dimension": 1,
+    "definition": "Sine of backbone phi dihedral angle",
+    "units": "unitless/temperature_factor",
+    "source": "PDB_ATOM_records",
+    "calculation": "Vector_dihedral_and_Bfactor_norm",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "cos_phi",
+    "feature_group": "Backbone_Dihedrals_Bfactor",
+    "dimension": 1,
+    "definition": "Cosine of backbone phi dihedral angle",
+    "units": "unitless/temperature_factor",
+    "source": "PDB_ATOM_records",
+    "calculation": "Vector_dihedral_and_Bfactor_norm",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "sin_psi",
+    "feature_group": "Backbone_Dihedrals_Bfactor",
+    "dimension": 1,
+    "definition": "Sine of backbone psi dihedral angle",
+    "units": "unitless/temperature_factor",
+    "source": "PDB_ATOM_records",
+    "calculation": "Vector_dihedral_and_Bfactor_norm",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "cos_psi",
+    "feature_group": "Backbone_Dihedrals_Bfactor",
+    "dimension": 1,
+    "definition": "Cosine of backbone psi dihedral angle",
+    "units": "unitless/temperature_factor",
+    "source": "PDB_ATOM_records",
+    "calculation": "Vector_dihedral_and_Bfactor_norm",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "Calpha_B_factor",
+    "feature_group": "Backbone_Dihedrals_Bfactor",
+    "dimension": 1,
+    "definition": "Raw C-alpha B-factor temperature factor from PDB ATOM record",
+    "units": "unitless/temperature_factor",
+    "source": "PDB_ATOM_records",
+    "calculation": "Vector_dihedral_and_Bfactor_norm",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "norm_B_factor",
+    "feature_group": "Backbone_Dihedrals_Bfactor",
+    "dimension": 1,
+    "definition": "Normalized C-alpha B-factor (ratio of residue B-factor to chain mean B-factor)",
+    "units": "unitless/temperature_factor",
+    "source": "PDB_ATOM_records",
+    "calculation": "Vector_dihedral_and_Bfactor_norm",
+    "missing_value_behavior": "0.0_if_unmapped"
+  },
+  {
+    "feature_name": "comp_count_10A_A",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid A in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_C",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid C in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_D",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid D in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_E",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid E in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_F",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid F in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_G",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid G in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_H",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid H in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_I",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid I in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_K",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid K in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_L",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid L in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_M",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid M in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_N",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid N in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_P",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid P in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_Q",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid Q in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_R",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid R in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_S",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid S in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_T",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid T in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_V",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid V in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_W",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid W in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "comp_count_10A_Y",
+    "feature_group": "Local_AA_Composition",
+    "dimension": 1,
+    "definition": "Count of amino acid Y in 10.0A local sphere",
+    "units": "count",
+    "source": "PDB_ATOM_residues",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_A",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid A in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_C",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid C in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_D",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid D in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_E",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid E in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_F",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid F in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_G",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid G in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_H",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid H in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_I",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid I in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_K",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid K in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_L",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid L in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_M",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid M in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_N",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid N in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_P",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid P in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_Q",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid Q in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_R",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid R in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_S",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid S in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_T",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid T in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_V",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid V in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_W",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid W in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_Y",
+    "feature_group": "Distance_Weighted_Composition",
+    "dimension": 1,
+    "definition": "Inverse-distance weighted sum for amino acid Y in 10.0A sphere",
+    "units": "1/Angstrom",
+    "source": "PDB_ATOM_coords",
+    "calculation": "sum(1/d_ij)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "loc_hydrophobicity_10A",
+    "feature_group": "Physicochemical_Environment",
+    "dimension": 1,
+    "definition": "Sum of Kyte-Doolittle hydrophobicity in 10A sphere",
+    "units": "property_scale",
+    "source": "Amino_acid_property_tables",
+    "calculation": "Neighborhood_sum",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "loc_charge_10A",
+    "feature_group": "Physicochemical_Environment",
+    "dimension": 1,
+    "definition": "Sum of formal charge in 10A sphere",
+    "units": "property_scale",
+    "source": "Amino_acid_property_tables",
+    "calculation": "Neighborhood_sum",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "loc_polarity_10A",
+    "feature_group": "Physicochemical_Environment",
+    "dimension": 1,
+    "definition": "Sum of polarity indicator in 10A sphere",
+    "units": "property_scale",
+    "source": "Amino_acid_property_tables",
+    "calculation": "Neighborhood_sum",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "loc_mol_weight_10A",
+    "feature_group": "Physicochemical_Environment",
+    "dimension": 1,
+    "definition": "Sum of molecular weight in 10A sphere",
+    "units": "property_scale",
+    "source": "Amino_acid_property_tables",
+    "calculation": "Neighborhood_sum",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_A",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA A",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_C",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA C",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_D",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA D",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_E",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA E",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_F",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA F",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_G",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA G",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_H",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA H",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_I",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA I",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_K",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA K",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_L",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA L",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_M",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA M",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_N",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA N",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_P",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA P",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_Q",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA Q",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_R",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA R",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_S",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA S",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_T",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA T",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_V",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA V",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_W",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA W",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "wt_onehot_Y",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Wild-Type AA Y",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_WT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_A",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA A",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_C",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA C",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_D",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA D",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_E",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA E",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_F",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA F",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_G",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA G",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_H",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA H",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_I",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA I",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_K",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA K",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_L",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA L",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_M",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA M",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_N",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA N",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_P",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA P",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_Q",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA Q",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_R",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA R",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_S",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA S",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_T",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA T",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_V",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA V",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_W",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA W",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "mut_onehot_Y",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "One-hot indicator for Mutant AA Y",
+    "units": "binary",
+    "source": "FireProt_mutation",
+    "calculation": "1.0_if_MUT==aa",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "delta_hydrophobicity",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "Kyte-Doolittle hydrophobicity change (MUT - WT)",
+    "units": "property_delta",
+    "source": "FireProt_mutation",
+    "calculation": "Property(MUT)-Property(WT)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "delta_volume_vdw",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "Van der Waals volume change in A^3 (MUT - WT)",
+    "units": "property_delta",
+    "source": "FireProt_mutation",
+    "calculation": "Property(MUT)-Property(WT)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "delta_formal_charge",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "Formal charge change (MUT - WT)",
+    "units": "property_delta",
+    "source": "FireProt_mutation",
+    "calculation": "Property(MUT)-Property(WT)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "delta_polarity",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "Polarity indicator change (MUT - WT)",
+    "units": "property_delta",
+    "source": "FireProt_mutation",
+    "calculation": "Property(MUT)-Property(WT)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "delta_mol_weight",
+    "feature_group": "Mutation_Deltas",
+    "dimension": 1,
+    "definition": "Molecular weight change in g/mol (MUT - WT)",
+    "units": "property_delta",
+    "source": "FireProt_mutation",
+    "calculation": "Property(MUT)-Property(WT)",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_1_dist_A",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Distance to 1-th nearest C-alpha neighbor in Angstroms",
+    "units": "Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "kth_min_Euclidean_distance",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_1_hydrophobicity",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Hydrophobicity of 1-th nearest neighbor",
+    "units": "KD_scale",
+    "source": "PDB_residue_identity",
+    "calculation": "KD_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_1_volume",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "VdW Volume of 1-th nearest neighbor in A^3",
+    "units": "A^3",
+    "source": "PDB_residue_identity",
+    "calculation": "VdW_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_1_charge",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Formal charge of 1-th nearest neighbor",
+    "units": "charge",
+    "source": "PDB_residue_identity",
+    "calculation": "Charge_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_2_dist_A",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Distance to 2-th nearest C-alpha neighbor in Angstroms",
+    "units": "Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "kth_min_Euclidean_distance",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_2_hydrophobicity",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Hydrophobicity of 2-th nearest neighbor",
+    "units": "KD_scale",
+    "source": "PDB_residue_identity",
+    "calculation": "KD_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_2_volume",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "VdW Volume of 2-th nearest neighbor in A^3",
+    "units": "A^3",
+    "source": "PDB_residue_identity",
+    "calculation": "VdW_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_2_charge",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Formal charge of 2-th nearest neighbor",
+    "units": "charge",
+    "source": "PDB_residue_identity",
+    "calculation": "Charge_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_3_dist_A",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Distance to 3-th nearest C-alpha neighbor in Angstroms",
+    "units": "Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "kth_min_Euclidean_distance",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_3_hydrophobicity",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Hydrophobicity of 3-th nearest neighbor",
+    "units": "KD_scale",
+    "source": "PDB_residue_identity",
+    "calculation": "KD_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_3_volume",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "VdW Volume of 3-th nearest neighbor in A^3",
+    "units": "A^3",
+    "source": "PDB_residue_identity",
+    "calculation": "VdW_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_3_charge",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Formal charge of 3-th nearest neighbor",
+    "units": "charge",
+    "source": "PDB_residue_identity",
+    "calculation": "Charge_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_4_dist_A",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Distance to 4-th nearest C-alpha neighbor in Angstroms",
+    "units": "Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "kth_min_Euclidean_distance",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_4_hydrophobicity",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Hydrophobicity of 4-th nearest neighbor",
+    "units": "KD_scale",
+    "source": "PDB_residue_identity",
+    "calculation": "KD_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_4_volume",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "VdW Volume of 4-th nearest neighbor in A^3",
+    "units": "A^3",
+    "source": "PDB_residue_identity",
+    "calculation": "VdW_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_4_charge",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Formal charge of 4-th nearest neighbor",
+    "units": "charge",
+    "source": "PDB_residue_identity",
+    "calculation": "Charge_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_5_dist_A",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Distance to 5-th nearest C-alpha neighbor in Angstroms",
+    "units": "Angstrom",
+    "source": "PDB_Calpha_coords",
+    "calculation": "kth_min_Euclidean_distance",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_5_hydrophobicity",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Hydrophobicity of 5-th nearest neighbor",
+    "units": "KD_scale",
+    "source": "PDB_residue_identity",
+    "calculation": "KD_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_5_volume",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "VdW Volume of 5-th nearest neighbor in A^3",
+    "units": "A^3",
+    "source": "PDB_residue_identity",
+    "calculation": "VdW_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_neighbor_5_charge",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Formal charge of 5-th nearest neighbor",
+    "units": "charge",
+    "source": "PDB_residue_identity",
+    "calculation": "Charge_table_lookup",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_A",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of A among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_C",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of C among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_D",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of D among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_E",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of E among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_F",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of F among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_G",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of G among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_H",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of H among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_I",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of I among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_K",
+    "feature_group": "Nearest_Neighbors",
+    "dimension": 1,
+    "definition": "Count of K among nearest 5 neighbors",
+    "units": "count",
+    "source": "PDB_residue_identity",
+    "calculation": "Histogram_count",
+    "missing_value_behavior": "0.0"
+  }
+]

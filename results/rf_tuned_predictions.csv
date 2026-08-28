@@ -1,0 +1,351 @@
+experiment_id,protein_name,uniprot_id,pdb_id_corrected,chain,position,wild_type,mutation,experimental_ddG,predicted_ddG,split,model
+VB02862,Thioredoxin-like protein 4A,P83876,1QGV,A,126,G,D,0.9,1.0753650736398461,test,Tuned_RandomForest
+PT017236,Colicin-E9 immunity protein,P13479,1IMQ,A,19,V,L,1.82,0.5108861116345852,test,Tuned_RandomForest
+PT017237,Colicin-E9 immunity protein,P13479,1IMQ,A,37,V,L,0.26,0.44171775654282375,test,Tuned_RandomForest
+PT017238,Colicin-E9 immunity protein,P13479,1IMQ,A,71,V,I,-0.07,0.39125470194949086,test,Tuned_RandomForest
+PT017239,Colicin-E9 immunity protein,P13479,1IMQ,A,41,E,V,-0.88,0.039941132470814975,test,Tuned_RandomForest
+PT017240,Colicin-E9 immunity protein,P13479,1IMQ,A,25,A,G,0.14,1.2596323069819508,test,Tuned_RandomForest
+PT017243,Colicin-E9 immunity protein,P13479,1IMQ,A,31,E,L,0.67,0.05953934441123051,test,Tuned_RandomForest
+PT017244,Colicin-E9 immunity protein,P13479,1IMQ,A,34,V,L,-0.33,0.6930853016330853,test,Tuned_RandomForest
+PT017245,Colicin-E9 immunity protein,P13479,1IMQ,A,68,V,I,0.81,0.5611448131916816,test,Tuned_RandomForest
+VB05444,Colicin-E9 immunity protein,P13479,1IMQ,A,27,T,G,1.4,1.1078781309071977,test,Tuned_RandomForest
+VB00036,Rubredoxin,P24297,1BRF,A,2,A,K,0.6,1.5196056012122718,test,Tuned_RandomForest
+PT004654,Thiol:disulfide interchange protein DsbA,P0AEG4,1A23,A,52,C,S,1.1,1.731651410551444,test,Tuned_RandomForest
+PT004655,Thiol:disulfide interchange protein DsbA,P0AEG4,1A23,A,49,C,S,1.8,1.697926764118065,test,Tuned_RandomForest
+PT008911,Thiol:disulfide interchange protein DsbA,P0AEG4,1A23,A,51,H,Y,-3.9666666666666655,0.47586660861901775,test,Tuned_RandomForest
+PT014483,Thiol:disulfide interchange protein DsbA,P0AEG4,1A23,A,51,H,L,-4.966666666666666,0.20296869264195722,test,Tuned_RandomForest
+PT014484,Thiol:disulfide interchange protein DsbA,P0AEG4,1A23,A,51,H,S,-4.4,0.6657598227286534,test,Tuned_RandomForest
+PT009472,Ribonuclease pancreatic,P61823,1KF2,A,147,D,N,1.9,0.7044282297760153,test,Tuned_RandomForest
+PT009473,Ribonuclease pancreatic,P61823,1KF2,A,147,D,A,2.2,0.5602552810628074,test,Tuned_RandomForest
+PT009474,Ribonuclease pancreatic,P61823,1KF2,A,145,H,A,-0.2,0.44565595169580813,test,Tuned_RandomForest
+PT013934,Ribonuclease pancreatic,P61823,1KF2,A,119,P,A,2.7,0.6409538471605842,test,Tuned_RandomForest
+PT013935,Ribonuclease pancreatic,P61823,1KF2,A,119,P,S,2.1,0.5940484313427379,test,Tuned_RandomForest
+PT013936,Ribonuclease pancreatic,P61823,1KF2,A,140,P,A,3.2,0.5779016737129551,test,Tuned_RandomForest
+PT014159,Ribonuclease pancreatic,P61823,1KF2,A,140,P,G,3.45,0.9782411328607648,test,Tuned_RandomForest
+PT014124,Ribonuclease pancreatic,P61823,1KF2,A,123,Y,F,3.52,0.8239131943234475,test,Tuned_RandomForest
+PT014125,Ribonuclease pancreatic,P61823,1KF2,A,123,Y,A,12.0,2.585310758243809,test,Tuned_RandomForest
+PT014126,Ribonuclease pancreatic,P61823,1KF2,A,123,Y,G,11.7,3.472691875346257,test,Tuned_RandomForest
+PT014158,Ribonuclease pancreatic,P61823,1KF2,A,119,P,G,2.4000000000000004,1.0512446850664163,test,Tuned_RandomForest
+PT016632,Ribonuclease pancreatic,P61823,1KF2,A,72,F,L,3.2,1.5715662287152268,test,Tuned_RandomForest
+PT016633,Ribonuclease pancreatic,P61823,1KF2,A,72,F,V,4.52,1.6700972458032257,test,Tuned_RandomForest
+PT016634,Ribonuclease pancreatic,P61823,1KF2,A,72,F,A,6.36,2.2040965934556422,test,Tuned_RandomForest
+PT020127,Ribonuclease pancreatic,P61823,1KF2,A,30,A,S,0.4466666666666666,0.8152529397263728,test,Tuned_RandomForest
+PT020129,Ribonuclease pancreatic,P61823,1KF2,A,31,A,S,0.0466666666666666,0.7719127975391895,test,Tuned_RandomForest
+PT020131,Ribonuclease pancreatic,P61823,1KF2,A,149,S,A,-0.7699999999999999,0.5067399361005143,test,Tuned_RandomForest
+PT021926,Ribonuclease pancreatic,P61823,1KF2,A,73,V,A,3.75,1.4992660605975028,test,Tuned_RandomForest
+PT021927,Ribonuclease pancreatic,P61823,1KF2,A,73,V,G,7.34,2.577718490607081,test,Tuned_RandomForest
+PT021928,Ribonuclease pancreatic,P61823,1KF2,A,80,V,A,2.59,1.3232522864957874,test,Tuned_RandomForest
+PT021929,Ribonuclease pancreatic,P61823,1KF2,A,80,V,G,4.885,2.5277238339768386,test,Tuned_RandomForest
+PT021930,Ribonuclease pancreatic,P61823,1KF2,A,83,V,A,2.875,1.4043950278811657,test,Tuned_RandomForest
+PT021931,Ribonuclease pancreatic,P61823,1KF2,A,83,V,G,5.51,2.5824862425950266,test,Tuned_RandomForest
+PT021932,Ribonuclease pancreatic,P61823,1KF2,A,89,V,A,2.01,1.343454098990379,test,Tuned_RandomForest
+PT021933,Ribonuclease pancreatic,P61823,1KF2,A,89,V,G,3.5,2.6897583122146913,test,Tuned_RandomForest
+PT021934,Ribonuclease pancreatic,P61823,1KF2,A,90,A,G,0.415,1.1594178322514692,test,Tuned_RandomForest
+PT021935,Ribonuclease pancreatic,P61823,1KF2,A,107,I,V,0.31,0.8124794624589466,test,Tuned_RandomForest
+PT021936,Ribonuclease pancreatic,P61823,1KF2,A,107,I,A,2.9225000000000003,2.243447011757423,test,Tuned_RandomForest
+PT021937,Ribonuclease pancreatic,P61823,1KF2,A,107,I,G,4.8,4.084966436368613,test,Tuned_RandomForest
+PT021938,Ribonuclease pancreatic,P61823,1KF2,A,132,I,V,0.8,0.7734700146474248,test,Tuned_RandomForest
+PT021939,Ribonuclease pancreatic,P61823,1KF2,A,132,I,A,4.385,2.2849886877326644,test,Tuned_RandomForest
+PT021940,Ribonuclease pancreatic,P61823,1KF2,A,133,I,V,0.08,0.703023334507795,test,Tuned_RandomForest
+PT021941,Ribonuclease pancreatic,P61823,1KF2,A,133,I,A,2.84,2.297737676200994,test,Tuned_RandomForest
+PT021942,Ribonuclease pancreatic,P61823,1KF2,A,134,V,A,4.2,1.3006879482329434,test,Tuned_RandomForest
+PT021943,Ribonuclease pancreatic,P61823,1KF2,A,134,V,G,7.28,2.8660680820603566,test,Tuned_RandomForest
+PT021944,Ribonuclease pancreatic,P61823,1KF2,A,135,A,G,0.415,1.0607293110690883,test,Tuned_RandomForest
+PT021945,Ribonuclease pancreatic,P61823,1KF2,A,142,V,A,0.6799999999999999,1.4588330476067712,test,Tuned_RandomForest
+PT021946,Ribonuclease pancreatic,P61823,1KF2,A,142,V,G,1.19,3.0097851779631055,test,Tuned_RandomForest
+PT021947,Ribonuclease pancreatic,P61823,1KF2,A,144,V,A,1.91,1.412948234790494,test,Tuned_RandomForest
+PT021948,Ribonuclease pancreatic,P61823,1KF2,A,144,V,G,2.785,2.9962685491801913,test,Tuned_RandomForest
+PT021949,Ribonuclease pancreatic,P61823,1KF2,A,132,I,L,1.795,0.5881765473498676,test,Tuned_RandomForest
+PT021950,Ribonuclease pancreatic,P61823,1KF2,A,133,I,L,2.19,0.551854948667492,test,Tuned_RandomForest
+PT021951,Ribonuclease pancreatic,P61823,1KF2,A,80,V,L,1.0950000000000002,0.6258945810127392,test,Tuned_RandomForest
+PT021952,Ribonuclease pancreatic,P61823,1KF2,A,80,V,I,1.925,0.6113390133186586,test,Tuned_RandomForest
+PT021953,Ribonuclease pancreatic,P61823,1KF2,A,83,V,L,2.385,0.4499161100629553,test,Tuned_RandomForest
+PT021954,Ribonuclease pancreatic,P61823,1KF2,A,83,V,I,1.3,0.42383738244971475,test,Tuned_RandomForest
+PT021955,Ribonuclease pancreatic,P61823,1KF2,A,134,V,L,0.7,0.3711531358973421,test,Tuned_RandomForest
+PT021956,Ribonuclease pancreatic,P61823,1KF2,A,134,V,I,0.415,0.33370429310642696,test,Tuned_RandomForest
+PT023705,Ribonuclease pancreatic,P61823,1KF2,A,101,S,A,2.5,0.2720527658288455,test,Tuned_RandomForest
+PT023706,Ribonuclease pancreatic,P61823,1KF2,A,101,S,T,2.8,0.20496948600047904,test,Tuned_RandomForest
+VB04119,Ribonuclease pancreatic,P61823,1KF2,A,107,I,L,2.2,0.6335454414418628,test,Tuned_RandomForest
+VB04131,Ribonuclease pancreatic,P61823,1KF2,A,93,N,D,-0.6,0.40949573631053793,test,Tuned_RandomForest
+VB05915,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,113,V,A,1.3,1.421137056140379,test,Tuned_RandomForest
+VB05916,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,114,T,A,1.8,0.2522893958564714,test,Tuned_RandomForest
+VB05917,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,115,I,A,4.5,1.920865578978317,test,Tuned_RandomForest
+VB00419,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,115,I,V,0.6,0.29506179745505823,test,Tuned_RandomForest
+VB00420,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,116,K,A,0.9,0.3999109789210488,test,Tuned_RandomForest
+VB00421,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,117,A,G,2.4,0.8888425963296449,test,Tuned_RandomForest
+VB05918,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,118,N,A,1.8,0.3009440225095185,test,Tuned_RandomForest
+VB05919,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,119,L,A,2.7,1.9219967220215877,test,Tuned_RandomForest
+VB05920,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,120,I,A,1.3,1.9147771028272875,test,Tuned_RandomForest
+VB05921,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,120,I,V,0.4,0.26887896557022756,test,Tuned_RandomForest
+VB05922,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,121,F,A,2.9,1.786948462591876,test,Tuned_RandomForest
+VB05923,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,121,F,L,0.6,1.0207059522230073,test,Tuned_RandomForest
+VB05926,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,123,N,A,1.7,0.21986205751672594,test,Tuned_RandomForest
+VB05929,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,125,S,A,0.2,0.15732898996589426,test,Tuned_RandomForest
+VB00430,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,126,T,A,1.2,0.1976116417585813,test,Tuned_RandomForest
+VB05930,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,128,T,A,1.0,0.18392084168558404,test,Tuned_RandomForest
+VB05933,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,130,E,A,0.7,0.22460740474380111,test,Tuned_RandomForest
+VB05934,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,131,F,A,5.2,1.7931629387796468,test,Tuned_RandomForest
+VB05935,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,131,F,L,3.3,1.07127094579238,test,Tuned_RandomForest
+VB05936,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,132,K,A,0.9,0.39892838107371487,test,Tuned_RandomForest
+VB05938,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,134,T,A,1.1,0.24226924689641624,test,Tuned_RandomForest
+VB00437,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,135,F,G,3.1,2.9912732165104914,test,Tuned_RandomForest
+VB00438,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,135,F,L,0.4,0.9928150561761792,test,Tuned_RandomForest
+VB05939,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,137,K,G,0.0,0.643416804363299,test,Tuned_RandomForest
+VB00440,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,138,A,G,2.5,0.9081534314141799,test,Tuned_RandomForest
+VB05940,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,139,T,A,1.2,0.32790987315781983,test,Tuned_RandomForest
+VB05941,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,140,S,A,-0.3,0.2960435136635588,test,Tuned_RandomForest
+VB00443,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,140,S,G,0.8,0.5246939854402327,test,Tuned_RandomForest
+VB00457,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,155,E,A,0.2,0.5711984916211129,test,Tuned_RandomForest
+VB05958,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,161,A,G,0.6,1.0445419952114507,test,Tuned_RandomForest
+VB05960,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,165,Y,A,1.5,2.169134582628969,test,Tuned_RandomForest
+VB00465,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,165,Y,L,-0.4,1.6564216527886508,test,Tuned_RandomForest
+VB05924,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,122,A,P,0.1,0.7297486462514823,test,Tuned_RandomForest
+VB05925,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,122,A,V,1.1,-0.056949555549628265,test,Tuned_RandomForest
+VB05927,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,124,G,A,1.6,0.1210344544827668,test,Tuned_RandomForest
+VB05928,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,124,G,V,2.7,0.13398255127904599,test,Tuned_RandomForest
+VB05931,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,129,A,G,2.1,0.9960210210275856,test,Tuned_RandomForest
+VB05932,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,129,A,V,-1.1,0.022290592984389478,test,Tuned_RandomForest
+VB05937,GRAM_POS_ANCHORING domain-containing protein,Q51912,1HZ6,A,133,G,A,1.9,0.1356805298818686,test,Tuned_RandomForest
+PT000503,Phospholipase A2,P00593,1G4I,A,44,F,Y,-1.15,1.1170033338064596,test,Tuned_RandomForest
+PT000504,Phospholipase A2,P00593,1G4I,A,44,F,I,-2.05,1.4821320211884763,test,Tuned_RandomForest
+PT000505,Phospholipase A2,P00593,1G4I,A,44,F,A,-0.35,1.7733212696650218,test,Tuned_RandomForest
+PT000506,Phospholipase A2,P00593,1G4I,A,128,F,Y,-0.35,1.1601103126979526,test,Tuned_RandomForest
+PT000507,Phospholipase A2,P00593,1G4I,A,128,F,I,-1.4,1.7412975514614686,test,Tuned_RandomForest
+PT000508,Phospholipase A2,P00593,1G4I,A,128,F,A,1.05,2.4308811308999063,test,Tuned_RandomForest
+VB02644,Phospholipase A2,P00593,1G4I,A,70,H,A,1.9,0.26010068245570367,test,Tuned_RandomForest
+VB02645,Phospholipase A2,P00593,1G4I,A,70,H,N,2.4,0.6861437993057306,test,Tuned_RandomForest
+VB02646,Phospholipase A2,P00593,1G4I,A,70,H,Q,0.5,0.5279413922411517,test,Tuned_RandomForest
+PT022893,Collagen alpha-1(XVIII) chain,P39060,1BNL,A,1647,D,A,3.89,0.6036253645235535,test,Tuned_RandomForest
+VB00114,Oncomodulin,P02631,1RRO,A,22,P,A,0.7,0.8509343745700529,test,Tuned_RandomForest
+VB00115,Oncomodulin,P02631,1RRO,A,27,P,A,0.7,1.1120720100172918,test,Tuned_RandomForest
+PT016702,Parvalbumin alpha,P02625,1RTP,A,27,H,P,-1.25,1.0731932829408857,test,Tuned_RandomForest
+PT016703,Parvalbumin alpha,P02625,1RTP,A,22,A,P,0.485,1.26721976933204,test,Tuned_RandomForest
+PT016707,Parvalbumin alpha,P02625,1RTP,A,81,K,S,0.29,0.7147298399540933,test,Tuned_RandomForest
+VB05739,Parvalbumin alpha,P02625,1RTP,A,21,A,P,0.5,1.4054881364879366,test,Tuned_RandomForest
+PT013184,Adenylate kinase,P69441,1ANK,A,84,D,H,1.4,0.7093348330237187,test,Tuned_RandomForest
+PT013185,Adenylate kinase,P69441,1ANK,A,85,G,V,2.4,1.4499289213463458,test,Tuned_RandomForest
+PT013186,Adenylate kinase,P69441,1ANK,A,86,F,L,0.8,1.5922947013063407,test,Tuned_RandomForest
+PT014157,Adenylate kinase,P69441,1ANK,A,88,R,G,0.15,1.2497841919297707,test,Tuned_RandomForest
+PT007235,Adenylate kinase,P07170,1AKY,A,171,N,D,2.125,0.7455459231170849,test,Tuned_RandomForest
+PT007236,Adenylate kinase,P07170,1AKY,A,79,T,H,2.125,1.4552921897840185,test,Tuned_RandomForest
+PT007240,Adenylate kinase,P07170,1AKY,A,10,V,I,1.1949999999999998,0.273691602559647,test,Tuned_RandomForest
+PT007241,Adenylate kinase,P07170,1AKY,A,215,I,F,1.905,1.2296383840387666,test,Tuned_RandomForest
+VB01840,Adenylate kinase,P07170,1AKY,A,50,Q,E,1.0,0.4027409546816948,test,Tuned_RandomForest
+VB03974,Adenylate kinase,P07170,1AKY,A,112,T,H,2.6,1.0996999018406697,test,Tuned_RandomForest
+PT016856,Adenosine deaminase,P03958,2ADA,A,117,W,F,-4.726666666666667,1.1597536963079795,test,Tuned_RandomForest
+PT016857,Adenosine deaminase,P03958,2ADA,A,161,W,F,-7.326666666666667,1.1680999523078062,test,Tuned_RandomForest
+PT016858,Adenosine deaminase,P03958,2ADA,A,264,W,F,-8.64,1.1939647917947638,test,Tuned_RandomForest
+PT016859,Adenosine deaminase,P03958,2ADA,A,272,W,F,-4.6866666666666665,1.1684035693557262,test,Tuned_RandomForest
+VB04095,Breast cancer type 1 susceptibility protein,P38398,1JNX,X,1699,R,W,3.4,0.7103271405629937,test,Tuned_RandomForest
+VB04096,Breast cancer type 1 susceptibility protein,P38398,1JNX,X,1775,M,R,4.2,0.8302050761458767,test,Tuned_RandomForest
+VB04097,Breast cancer type 1 susceptibility protein,P38398,1JNX,X,1833,V,M,1.7,0.789310089159423,test,Tuned_RandomForest
+PT011557,Guanyl-specific ribonuclease Sa3,P30289,1MGR,A,53,Y,F,0.6,0.6892654750634722,test,Tuned_RandomForest
+PT011558,Guanyl-specific ribonuclease Sa3,P30289,1MGR,A,75,Y,F,-0.5,0.7057384158469597,test,Tuned_RandomForest
+PT011559,Guanyl-specific ribonuclease Sa3,P30289,1MGR,A,96,Y,F,2.6,0.8418444067775966,test,Tuned_RandomForest
+PT011560,Guanyl-specific ribonuclease Sa3,P30289,1MGR,A,97,Y,F,2.1,0.8188415435924745,test,Tuned_RandomForest
+PT011561,Guanyl-specific ribonuclease Sa3,P30289,1MGR,A,100,Y,F,0.7,0.8315995868139634,test,Tuned_RandomForest
+PT011562,Guanyl-specific ribonuclease Sa3,P30289,1MGR,A,125,Y,F,1.5,0.8383794947631269,test,Tuned_RandomForest
+PT011563,Guanyl-specific ribonuclease Sa3,P30289,1MGR,A,126,Y,F,1.0,0.8207008460335525,test,Tuned_RandomForest
+VB00096,Guanyl-specific ribonuclease Sa3,P30289,1MGR,A,131,Y,F,0.0,0.850021187439412,test,Tuned_RandomForest
+VB02874,Non-specific lipid-transfer protein,P22307,1QND,A,495,C,S,1.4,1.6172114753784792,test,Tuned_RandomForest
+VB04019,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,126,W,A,-1.1,2.062337793774217,test,Tuned_RandomForest
+VB04020,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,126,W,F,2.2,0.8619050707115914,test,Tuned_RandomForest
+VB04021,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,126,W,H,0.5,2.16297347381339,test,Tuned_RandomForest
+VB04022,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,213,Y,A,2.8,2.3451586629322527,test,Tuned_RandomForest
+VB04023,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,213,Y,F,0.5,0.546321625530812,test,Tuned_RandomForest
+VB04024,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,213,Y,S,-0.9,2.6992013081340467,test,Tuned_RandomForest
+VB04025,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,307,W,A,2.6,2.4833393063870557,test,Tuned_RandomForest
+VB04026,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,307,W,F,1.8,0.9306033886573861,test,Tuned_RandomForest
+VB04027,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,307,W,H,4.0,2.4653612499824145,test,Tuned_RandomForest
+VB04028,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,315,W,A,-2.3,2.483082853201883,test,Tuned_RandomForest
+VB04029,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,315,W,F,-0.4,0.9215778054376953,test,Tuned_RandomForest
+VB04030,"Endo-1,4-beta-xylanase A",P26514,1E0W,A,315,W,H,-0.1,2.5034028896996463,test,Tuned_RandomForest
+VB00308,Carboxypeptidase A2,P48052,1AYE,A,20,E,G,1.0,0.44694864670038725,test,Tuned_RandomForest
+VB04006,Cytochrome c-552,P04164,1C52,A,69,M,A,-5.0,1.3343872995066983,test,Tuned_RandomForest
+VB04007,Cytochrome c-552,P04164,1C52,A,69,M,H,0.7,1.4845717862726344,test,Tuned_RandomForest
+VB04466,Retinol-binding protein 4,P02753,1RBP,A,42,W,F,2.5,0.9772966124833402,test,Tuned_RandomForest
+VB04467,Retinol-binding protein 4,P02753,1RBP,A,42,W,L,2.6,1.6448501094911965,test,Tuned_RandomForest
+VB04468,Retinol-binding protein 4,P02753,1RBP,A,42,W,Y,2.2,1.045180781948545,test,Tuned_RandomForest
+VB04469,Retinol-binding protein 4,P02753,1RBP,A,109,W,H,0.1,2.5750492767121593,test,Tuned_RandomForest
+VB04470,Retinol-binding protein 4,P02753,1RBP,A,123,W,F,0.4,1.2296460372312679,test,Tuned_RandomForest
+VB04471,Retinol-binding protein 4,P02753,1RBP,A,139,R,Q,2.6,1.1751704217307104,test,Tuned_RandomForest
+VB05389,Flavodoxin,P0A3E0,1FTG,A,8,F,L,0.1,1.360728580790858,test,Tuned_RandomForest
+VB05388,Flavodoxin,P0A3E0,1FTG,A,48,Y,F,0.8,0.7810826069097436,test,Tuned_RandomForest
+VB05387,Flavodoxin,P0A3E0,1FTG,A,35,H,A,1.3,0.3237029542905126,test,Tuned_RandomForest
+PT017927,Flavodoxin,P0A3E0,1FTG,A,21,E,K,0.2689999999999999,-0.060279556263910725,test,Tuned_RandomForest
+PT017928,Flavodoxin,P0A3E0,1FTG,A,41,E,K,0.4745454545454546,0.43533461562572834,test,Tuned_RandomForest
+PT017929,Flavodoxin,P0A3E0,1FTG,A,62,E,K,-0.06,0.557965002847753,test,Tuned_RandomForest
+PT017930,Flavodoxin,P0A3E0,1FTG,A,66,D,K,0.0159999999999999,0.575206765896044,test,Tuned_RandomForest
+PT017931,Flavodoxin,P0A3E0,1FTG,A,73,E,K,0.3954545454545455,0.6047081909615671,test,Tuned_RandomForest
+PT017932,Flavodoxin,P0A3E0,1FTG,A,76,D,K,0.0416666666666666,0.6103119604682574,test,Tuned_RandomForest
+PT017933,Flavodoxin,P0A3E0,1FTG,A,127,D,K,0.1522222222222222,0.6532060935794923,test,Tuned_RandomForest
+PT017934,Flavodoxin,P0A3E0,1FTG,A,151,D,K,-0.0971428571428571,0.926978118079517,test,Tuned_RandomForest
+PT018010,Flavodoxin,P0A3E0,1FTG,A,7,L,A,2.596666666666667,2.0874483309338596,test,Tuned_RandomForest
+PT018011,Flavodoxin,P0A3E0,1FTG,A,23,I,V,1.94,0.631295251032837,test,Tuned_RandomForest
+PT018012,Flavodoxin,P0A3E0,1FTG,A,32,V,A,1.28,1.4950898612702956,test,Tuned_RandomForest
+PT018013,Flavodoxin,P0A3E0,1FTG,A,44,D,A,-0.0333333333333333,0.059821789835011276,test,Tuned_RandomForest
+PT018014,Flavodoxin,P0A3E0,1FTG,A,52,I,V,1.146,0.7394022778350919,test,Tuned_RandomForest
+PT018015,Flavodoxin,P0A3E0,1FTG,A,53,I,V,1.132,0.6800185416288922,test,Tuned_RandomForest
+PT018016,Flavodoxin,P0A3E0,1FTG,A,72,S,A,-0.014,0.43567556456563106,test,Tuned_RandomForest
+PT018017,Flavodoxin,P0A3E0,1FTG,A,85,A,G,1.5179999999999998,1.222102491430322,test,Tuned_RandomForest
+PT018018,Flavodoxin,P0A3E0,1FTG,A,98,N,A,0.515,0.6170601600592576,test,Tuned_RandomForest
+PT018019,Flavodoxin,P0A3E0,1FTG,A,100,Q,A,-0.89,0.40537022425855684,test,Tuned_RandomForest
+PT018020,Flavodoxin,P0A3E0,1FTG,A,105,I,V,0.44,0.9156533674095061,test,Tuned_RandomForest
+PT018021,Flavodoxin,P0A3E0,1FTG,A,111,S,A,0.6083333333333334,0.3421717293502983,test,Tuned_RandomForest
+PT018022,Flavodoxin,P0A3E0,1FTG,A,118,V,A,1.644,1.4876084363001705,test,Tuned_RandomForest
+PT018023,Flavodoxin,P0A3E0,1FTG,A,123,T,S,-0.0816666666666666,0.6308062601761075,test,Tuned_RandomForest
+PT018024,Flavodoxin,P0A3E0,1FTG,A,140,V,A,0.9333333333333336,1.6255766983724207,test,Tuned_RandomForest
+PT018025,Flavodoxin,P0A3E0,1FTG,A,144,L,A,0.15,2.620093809669544,test,Tuned_RandomForest
+PT018026,Flavodoxin,P0A3E0,1FTG,A,157,I,V,2.418,1.0282229837131678,test,Tuned_RandomForest
+PT018027,Flavodoxin,P0A3E0,1FTG,A,161,V,A,1.658,1.5693214366814467,test,Tuned_RandomForest
+PT018067,Flavodoxin,P0A3E0,1FTG,A,23,I,A,0.7333333333333334,2.0660433503775675,test,Tuned_RandomForest
+PT019967,Flavodoxin,P0A3E0,1FTG,A,19,V,I,-0.4614285714285714,0.33998479536680365,test,Tuned_RandomForest
+PT019969,Flavodoxin,P0A3E0,1FTG,A,22,I,A,0.86,2.054047859372411,test,Tuned_RandomForest
+PT019970,Flavodoxin,P0A3E0,1FTG,A,22,I,G,-0.09,3.1808384834619035,test,Tuned_RandomForest
+PT019972,Flavodoxin,P0A3E0,1FTG,A,51,L,A,-0.9566666666666666,2.2451338364768705,test,Tuned_RandomForest
+PT019973,Flavodoxin,P0A3E0,1FTG,A,69,G,A,-0.4766666666666667,0.7571186403332355,test,Tuned_RandomForest
+PT019976,Flavodoxin,P0A3E0,1FTG,A,84,V,I,-0.052,0.592455973436617,test,Tuned_RandomForest
+PT019978,Flavodoxin,P0A3E0,1FTG,A,102,A,V,0.0259999999999999,1.561821178167518,test,Tuned_RandomForest
+PT019979,Flavodoxin,P0A3E0,1FTG,A,108,E,A,-0.19,0.7455915539420193,test,Tuned_RandomForest
+PT019980,Flavodoxin,P0A3E0,1FTG,A,112,Q,G,-0.2066666666666666,1.2643293126816415,test,Tuned_RandomForest
+PT022082,Flavodoxin,P0A3E0,1FTG,A,19,V,L,-0.2575,0.3533832252076339,test,Tuned_RandomForest
+PT022099,Flavodoxin,P0A3E0,1FTG,A,88,G,A,0.11,0.7752205319762066,test,Tuned_RandomForest
+PT022100,Flavodoxin,P0A3E0,1FTG,A,88,G,V,0.0033333333333333,1.5435001700824147,test,Tuned_RandomForest
+PT022101,Flavodoxin,P0A3E0,1FTG,A,88,G,L,0.4166666666666667,1.2922246096125507,test,Tuned_RandomForest
+PT022103,Flavodoxin,P0A3E0,1FTG,A,102,A,L,0.0833333333333333,1.3057257228850974,test,Tuned_RandomForest
+VB00067,Flavodoxin,P0A3E0,1FTG,A,75,D,K,0.55,0.63026973728392,test,Tuned_RandomForest
+VB02618,Flavodoxin,P0A3E0,1FTG,A,22,I,V,1.5499999999999998,0.6504720363664317,test,Tuned_RandomForest
+VB02619,Flavodoxin,P0A3E0,1FTG,A,31,V,A,1.7999999999999998,1.5207374113483298,test,Tuned_RandomForest
+VB03759,Flavodoxin,P0A3E0,1FTG,A,107,E,A,-0.6,0.6773882095075905,test,Tuned_RandomForest
+VB03765,Flavodoxin,P0A3E0,1FTG,A,23,I,G,0.35,3.187554855709727,test,Tuned_RandomForest
+VB05411,Flavodoxin,P0A3E0,1FTG,A,103,I,V,0.7,0.9514074299626805,test,Tuned_RandomForest
+VB05419,Flavodoxin,P0A3E0,1FTG,A,142,L,A,0.1,2.736914291437417,test,Tuned_RandomForest
+PT003924,Thioredoxin 1,P0AA25,2TRX,A,77,P,A,3.9,0.8120366373592902,test,Tuned_RandomForest
+PT003925,Thioredoxin 1,P0AA25,2TRX,A,35,P,S,0.1,1.0070072665572078,test,Tuned_RandomForest
+PT004000,Thioredoxin 1,P0AA25,2TRX,A,27,D,A,-4.2,0.14316768529136703,test,Tuned_RandomForest
+PT011745,Thioredoxin 1,P0AA25,2TRX,A,27,D,I,-6.2,0.11468993469763016,test,Tuned_RandomForest
+PT011746,Thioredoxin 1,P0AA25,2TRX,A,33,C,A,-4.166666666666667,1.4079641232776747,test,Tuned_RandomForest
+PT011747,Thioredoxin 1,P0AA25,2TRX,A,36,C,A,-4.0,1.4595885999561118,test,Tuned_RandomForest
+PT011748,Thioredoxin 1,P0AA25,2TRX,A,67,T,L,-3.333333333333333,0.6461154861503958,test,Tuned_RandomForest
+PT011749,Thioredoxin 1,P0AA25,2TRX,A,78,T,V,-3.233333333333333,0.710274237736425,test,Tuned_RandomForest
+PT014151,Thioredoxin 1,P0AA25,2TRX,A,79,L,K,2.9,1.634519303503221,test,Tuned_RandomForest
+PT014152,Thioredoxin 1,P0AA25,2TRX,A,79,L,R,3.0,1.1797543244809479,test,Tuned_RandomForest
+VB00214,Thioredoxin 1,P0AA25,2TRX,A,79,L,C,0.0,1.675226965616854,test,Tuned_RandomForest
+VB00216,Thioredoxin 1,P0AA25,2TRX,A,78,T,C,-2.1,0.6824661481631888,test,Tuned_RandomForest
+VB04581,Thioredoxin 1,P0AA25,2TRX,A,41,P,S,-1.4,0.9011868114104343,test,Tuned_RandomForest
+PT002293,Guanyl-specific ribonuclease T1,P00651,1RN1,A,51,Q,K,-1.0175,0.44584422093086507,test,Tuned_RandomForest
+PT002294,Guanyl-specific ribonuclease T1,P00651,1RN1,A,84,E,A,-0.2083333333333333,0.5982092030482903,test,Tuned_RandomForest
+PT002314,Guanyl-specific ribonuclease T1,P00651,1RN1,A,37,Y,F,2.07,0.7142484184455704,test,Tuned_RandomForest
+PT002315,Guanyl-specific ribonuclease T1,P00651,1RN1,A,68,Y,F,-1.145,0.7033841922332091,test,Tuned_RandomForest
+PT002316,Guanyl-specific ribonuclease T1,P00651,1RN1,A,82,Y,F,0.745,0.7620222026115003,test,Tuned_RandomForest
+PT002317,Guanyl-specific ribonuclease T1,P00651,1RN1,A,83,Y,F,0.47,0.7738841515753989,test,Tuned_RandomForest
+PT002318,Guanyl-specific ribonuclease T1,P00651,1RN1,A,94,Y,F,1.355,0.7961497457631832,test,Tuned_RandomForest
+PT002319,Guanyl-specific ribonuclease T1,P00651,1RN1,A,38,S,A,1.155,0.6386756524052111,test,Tuned_RandomForest
+PT002320,Guanyl-specific ribonuclease T1,P00651,1RN1,A,43,S,A,-0.62,0.5399443992629123,test,Tuned_RandomForest
+PT002321,Guanyl-specific ribonuclease T1,P00651,1RN1,A,90,S,A,1.5,0.5024418976623314,test,Tuned_RandomForest
+PT002322,Guanyl-specific ribonuclease T1,P00651,1RN1,A,35,N,A,0.8033333333333333,0.8217708687733407,test,Tuned_RandomForest
+PT002323,Guanyl-specific ribonuclease T1,P00651,1RN1,A,62,N,A,-0.03,0.6830653010228571,test,Tuned_RandomForest
+PT002324,Guanyl-specific ribonuclease T1,P00651,1RN1,A,70,N,A,1.885,0.7695751054486195,test,Tuned_RandomForest
+PT002325,Guanyl-specific ribonuclease T1,P00651,1RN1,A,107,N,A,2.89,0.7628814860990477,test,Tuned_RandomForest
+PT002340,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,C,0.74,0.6871456193135772,test,Tuned_RandomForest
+PT002359,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,D,0.71,1.6166277493624757,test,Tuned_RandomForest
+PT002360,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,E,0.69,2.1837189768413405,test,Tuned_RandomForest
+PT002343,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,F,0.57,0.9066201479314931,test,Tuned_RandomForest
+VB02918,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,G,1.1,1.4772858816820194,test,Tuned_RandomForest
+PT002361,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,H,0.17,1.7707204924472288,test,Tuned_RandomForest
+PT002346,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,I,0.44,0.6813680087583938,test,Tuned_RandomForest
+PT002347,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,K,0.51,1.754505717528852,test,Tuned_RandomForest
+PT002348,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,L,0.13,0.6406612601332163,test,Tuned_RandomForest
+PT002349,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,M,0.15,0.6581175851627793,test,Tuned_RandomForest
+PT002350,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,N,-0.34,1.5921515894820801,test,Tuned_RandomForest
+PT002362,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,Q,0.4,1.6301121140331885,test,Tuned_RandomForest
+PT002352,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,R,0.41,1.4215731688646882,test,Tuned_RandomForest
+PT002363,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,S,0.4,1.2242659055946672,test,Tuned_RandomForest
+PT002354,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,T,0.57,1.4625243629790001,test,Tuned_RandomForest
+PT002355,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,V,0.66,0.7616033017451855,test,Tuned_RandomForest
+PT002356,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,W,0.3,1.5943682530009686,test,Tuned_RandomForest
+PT002357,Guanyl-specific ribonuclease T1,P00651,1RN1,A,47,A,Y,0.39,1.615731244696734,test,Tuned_RandomForest
+PT002386,Guanyl-specific ribonuclease T1,P00651,1RN1,A,65,P,A,4.33,0.8812908023694989,test,Tuned_RandomForest
+PT003417,Guanyl-specific ribonuclease T1,P00651,1RN1,A,70,N,D,1.8,0.6575451422473587,test,Tuned_RandomForest
+PT003418,Guanyl-specific ribonuclease T1,P00651,1RN1,A,70,N,S,1.7333333333333334,0.8139085431811339,test,Tuned_RandomForest
+PT005714,Guanyl-specific ribonuclease T1,P00651,1RN1,A,102,D,N,3.132857142857142,0.6257237009144783,test,Tuned_RandomForest
+PT005715,Guanyl-specific ribonuclease T1,P00651,1RN1,A,102,D,S,3.2000000000000006,0.537149395093312,test,Tuned_RandomForest
+PT005716,Guanyl-specific ribonuclease T1,P00651,1RN1,A,102,D,A,3.75,0.39022038079335286,test,Tuned_RandomForest
+PT006821,Guanyl-specific ribonuclease T1,P00651,1RN1,A,75,D,A,0.5,0.1153965506847414,test,Tuned_RandomForest
+PT008358,Guanyl-specific ribonuclease T1,P00651,1RN1,A,75,D,H,-5.1,0.5153992368895528,test,Tuned_RandomForest
+PT008727,Guanyl-specific ribonuclease T1,P00651,1RN1,A,99,P,V,-2.225,0.5413081662002537,test,Tuned_RandomForest
+PT010052,Guanyl-specific ribonuclease T1,P00651,1RN1,A,85,W,Y,0.93,1.1781331853251302,test,Tuned_RandomForest
+PT010053,Guanyl-specific ribonuclease T1,P00651,1RN1,A,50,Y,W,-1.24,0.9575654032571193,test,Tuned_RandomForest
+PT010055,Guanyl-specific ribonuclease T1,P00651,1RN1,A,68,Y,W,0.14,0.9672349005853724,test,Tuned_RandomForest
+PT010057,Guanyl-specific ribonuclease T1,P00651,1RN1,A,71,Y,W,-0.74,0.9748492248101716,test,Tuned_RandomForest
+PT010059,Guanyl-specific ribonuclease T1,P00651,1RN1,A,66,H,T,0.26,0.7799533181084555,test,Tuned_RandomForest
+PT010061,Guanyl-specific ribonuclease T1,P00651,1RN1,A,118,H,A,1.06,0.4031895081720247,test,Tuned_RandomForest
+PT011654,Guanyl-specific ribonuclease T1,P00651,1RN1,A,42,V,A,2.295,1.4825629922252785,test,Tuned_RandomForest
+PT011655,Guanyl-specific ribonuclease T1,P00651,1RN1,A,42,V,S,4.69,1.7318236033120638,test,Tuned_RandomForest
+PT011656,Guanyl-specific ribonuclease T1,P00651,1RN1,A,42,V,T,3.633333333333333,1.4310644223873465,test,Tuned_RandomForest
+PT011657,Guanyl-specific ribonuclease T1,P00651,1RN1,A,42,V,C,4.92,1.022751739666869,test,Tuned_RandomForest
+PT011658,Guanyl-specific ribonuclease T1,P00651,1RN1,A,104,V,A,4.09,1.4050787205023683,test,Tuned_RandomForest
+PT011659,Guanyl-specific ribonuclease T1,P00651,1RN1,A,104,V,S,4.715,1.8415877840275683,test,Tuned_RandomForest
+PT011660,Guanyl-specific ribonuclease T1,P00651,1RN1,A,104,V,T,3.59,1.250658026282289,test,Tuned_RandomForest
+PT011661,Guanyl-specific ribonuclease T1,P00651,1RN1,A,104,V,C,3.685,0.9568846261164773,test,Tuned_RandomForest
+PT011662,Guanyl-specific ribonuclease T1,P00651,1RN1,A,115,V,S,4.885,1.6768823963866402,test,Tuned_RandomForest
+PT011663,Guanyl-specific ribonuclease T1,P00651,1RN1,A,115,V,T,3.085,1.0941547216243783,test,Tuned_RandomForest
+PT011664,Guanyl-specific ribonuclease T1,P00651,1RN1,A,115,V,C,3.52,0.8325271519017033,test,Tuned_RandomForest
+VB02919,Guanyl-specific ribonuclease T1,P00651,1RN1,A,49,G,A,1.2,0.6118800373245535,test,Tuned_RandomForest
+VB02921,Guanyl-specific ribonuclease T1,P00651,1RN1,A,75,D,F,0.15,0.4080457504747442,test,Tuned_RandomForest
+VB02922,Guanyl-specific ribonuclease T1,P00651,1RN1,A,75,D,Y,0.25,0.548592069195218,test,Tuned_RandomForest
+VB02925,Guanyl-specific ribonuclease T1,P00651,1RN1,A,78,V,T,3.6,1.4361442533884214,test,Tuned_RandomForest
+VB03950,Guanyl-specific ribonuclease T1,P00651,1RN1,A,75,D,W,0.9,0.5397984419372737,test,Tuned_RandomForest
+VB04474,Guanyl-specific ribonuclease T1,P00651,1RN1,A,78,V,S,4.9,1.8410716427713467,test,Tuned_RandomForest
+PT008289,Fibroblast growth factor 1,P05230,2AFG,A,98,C,S,1.6549999999999998,2.0349745425443215,test,Tuned_RandomForest
+PT008290,Fibroblast growth factor 1,P05230,2AFG,A,132,C,S,0.6025,1.7654970741108442,test,Tuned_RandomForest
+PT008292,Fibroblast growth factor 1,P05230,2AFG,A,31,C,S,2.845,1.7518194964031795,test,Tuned_RandomForest
+PT008293,Fibroblast growth factor 1,P05230,2AFG,A,108,H,G,-1.1916666666666669,1.0987343550677744,test,Tuned_RandomForest
+PT014301,Fibroblast growth factor 1,P05230,2AFG,A,59,L,P,-0.695,3.0056431161228994,test,Tuned_RandomForest
+PT014302,Fibroblast growth factor 1,P05230,2AFG,A,88,L,V,1.48,0.9656913408759497,test,Tuned_RandomForest
+PT014303,Fibroblast growth factor 1,P05230,2AFG,A,124,V,L,0.585,0.34581507237207426,test,Tuned_RandomForest
+PT016087,Fibroblast growth factor 1,P05230,2AFG,A,121,N,G,-0.29,1.33423837049227,test,Tuned_RandomForest
+PT016089,Fibroblast growth factor 1,P05230,2AFG,A,108,H,A,0.515,0.41783739018038357,test,Tuned_RandomForest
+PT016090,Fibroblast growth factor 1,P05230,2AFG,A,108,H,N,-0.245,0.5766142096710509,test,Tuned_RandomForest
+PT016091,Fibroblast growth factor 1,P05230,2AFG,A,77,G,A,1.465,0.6908862533475102,test,Tuned_RandomForest
+PT016092,Fibroblast growth factor 1,P05230,2AFG,A,77,G,N,0.895,1.4304925879634742,test,Tuned_RandomForest
+PT016093,Fibroblast growth factor 1,P05230,2AFG,A,118,A,G,0.4549999999999999,1.1203984460068424,test,Tuned_RandomForest
+PT018240,Fibroblast growth factor 1,P05230,2AFG,A,36,H,Y,-0.7300000000000001,0.5158238097789075,test,Tuned_RandomForest
+PT018241,Fibroblast growth factor 1,P05230,2AFG,A,59,L,F,-0.2624999999999999,1.0381839981671612,test,Tuned_RandomForest
+PT018242,Fibroblast growth factor 1,P05230,2AFG,A,117,H,Y,-0.31,0.336466843058974,test,Tuned_RandomForest
+PT018243,Fibroblast growth factor 1,P05230,2AFG,A,123,F,Y,-0.59,0.9368204830093652,test,Tuned_RandomForest
+PT018244,Fibroblast growth factor 1,P05230,2AFG,A,124,V,I,0.0075,0.30061891036529403,test,Tuned_RandomForest
+PT024287,Fibroblast growth factor 1,P05230,2AFG,A,59,L,W,-0.0466666666666667,1.7342382839417205,test,Tuned_RandomForest
+PT024288,Fibroblast growth factor 1,P05230,2AFG,A,100,F,W,0.01,1.222175455029294,test,Tuned_RandomForest
+PT024289,Fibroblast growth factor 1,P05230,2AFG,A,147,F,W,0.3233333333333333,1.1637096159168183,test,Tuned_RandomForest
+PT024290,Fibroblast growth factor 1,P05230,2AFG,A,46,V,W,-0.96,1.706366626632425,test,Tuned_RandomForest
+PT024291,Fibroblast growth factor 1,P05230,2AFG,A,132,C,I,-0.36,0.9912504202442775,test,Tuned_RandomForest
+VB03971,Fibroblast growth factor 1,P05230,2AFG,A,132,C,V,0.3,1.2466696426273824,test,Tuned_RandomForest
+VB03972,Fibroblast growth factor 1,P05230,2AFG,A,46,V,I,1.0,0.4495619956586533,test,Tuned_RandomForest
+PT024299,Fibroblast growth factor 1,P05230,2AFG,A,100,F,W,-0.07,1.222175455029294,test,Tuned_RandomForest
+PT024300,Fibroblast growth factor 1,P05230,2AFG,A,147,F,W,0.29,1.1637096159168183,test,Tuned_RandomForest
+PT006832,Beta-lactamase,P00811,1KE4,A,166,Y,F,1.125,0.7881687890028058,test,Tuned_RandomForest
+VB01426,"Ferredoxin, heterocyst",P11053,1FRD,A,43,H,R,-4.0,0.6868146502071324,test,Tuned_RandomForest
+VB00410,Ferredoxin-1,P0A3C7,1FXA,A,43,R,A,2.4,0.5368159840817192,test,Tuned_RandomForest
+VB00411,Ferredoxin-1,P0A3C7,1FXA,A,49,T,A,-0.1,0.8523743208373763,test,Tuned_RandomForest
+VB00412,Ferredoxin-1,P0A3C7,1FXA,A,66,F,A,1.0,2.352399962082855,test,Tuned_RandomForest
+VB00413,Ferredoxin-1,P0A3C7,1FXA,A,95,E,Q,-0.6,0.5859342232427567,test,Tuned_RandomForest
+VB01289,Ferredoxin-1,P0A3C7,1FXA,A,95,E,D,1.1,0.7489728151359621,test,Tuned_RandomForest
+VB01309,Ferredoxin-1,P0A3C7,1FXA,A,95,E,K,-0.3,0.44772372733735155,test,Tuned_RandomForest
+VB01361,Ferredoxin-1,P0A3C7,1FXA,A,66,F,I,0.9,1.7418751740825065,test,Tuned_RandomForest
+VB01370,Ferredoxin-1,P0A3C7,1FXA,A,66,F,W,0.6,1.1499749946422229,test,Tuned_RandomForest
+VB01376,Ferredoxin-1,P0A3C7,1FXA,A,66,F,Y,0.5,1.0731284430802537,test,Tuned_RandomForest
+VB01613,Ferredoxin-1,P0A3C7,1FXA,A,43,R,H,1.4,0.7257865336410138,test,Tuned_RandomForest
+PT004707,Carbonic anhydrase 2,P00918,1CAH,A,5,W,F,-0.5,0.7793907258900802,test,Tuned_RandomForest
+PT004709,Carbonic anhydrase 2,P00918,1CAH,A,16,W,F,-1.75,0.7918769038063398,test,Tuned_RandomForest
+PT004863,Carbonic anhydrase 2,P00918,1CAH,A,205,C,S,0.6,1.9913262976846646,test,Tuned_RandomForest
+PT023154,Carbonic anhydrase 2,P00918,1CAH,A,107,H,Y,8.133333333333333,0.47599956102009683,test,Tuned_RandomForest
+PT023155,Carbonic anhydrase 2,P00918,1CAH,A,107,H,A,7.666666666666667,0.34409705491808146,test,Tuned_RandomForest
+PT023156,Carbonic anhydrase 2,P00918,1CAH,A,107,H,F,6.666666666666667,0.3412406712957042,test,Tuned_RandomForest
+PT023157,Carbonic anhydrase 2,P00918,1CAH,A,107,H,N,5.466666666666666,0.6372555817334481,test,Tuned_RandomForest
+PT023158,Carbonic anhydrase 2,P00918,1CAH,A,117,E,A,3.6666666666666665,0.534673862732733,test,Tuned_RandomForest
+VB00046,Carbonic anhydrase 2,P00918,1CAH,A,60,L,C,0.1,1.5567121177879037,test,Tuned_RandomForest
+VB00047,Carbonic anhydrase 2,P00918,1CAH,A,123,W,C,0.0,2.278680016419608,test,Tuned_RandomForest
+VB00048,Carbonic anhydrase 2,P00918,1CAH,A,255,I,C,0.3,2.3293404617572424,test,Tuned_RandomForest
+VB00049,Carbonic anhydrase 2,P00918,1CAH,A,68,V,C,1.2,1.2697472692824652,test,Tuned_RandomForest
+VB00050,Carbonic anhydrase 2,P00918,1CAH,A,56,S,C,0.5,0.3857905011273743,test,Tuned_RandomForest

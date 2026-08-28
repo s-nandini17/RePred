@@ -1,0 +1,67 @@
+{
+  "model_name": "ProteinGNN",
+  "architecture": {
+    "node_input_dim": 58,
+    "edge_dim": 3,
+    "hidden_dim": 64,
+    "gnn_layers": 3,
+    "readout": "mutation_node_embedding_64d_plus_deltas_5d",
+    "mlp_layers": "Linear(69, 32) -> ReLU -> Linear(32, 1)"
+  },
+  "training_config": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 128,
+    "max_epochs": 100,
+    "early_stopping_patience": 15,
+    "seed": 42
+  },
+  "sample_counts": {
+    "train": 2681,
+    "validation": 402,
+    "test": 350
+  },
+  "train_metrics": {
+    "MAE": 1.1740456697388966,
+    "RMSE": 1.5584339669973857,
+    "R2": 0.21823951594160473,
+    "Pearson": 0.47304312046922686,
+    "Pearson_p": 1.4281673754697223e-149,
+    "Spearman": 0.45631526355696805,
+    "Spearman_p": 5.083225942014988e-138,
+    "n_samples": 2681.0
+  },
+  "validation_metrics": {
+    "MAE": 1.0677559290345369,
+    "RMSE": 1.450951588986111,
+    "R2": 0.1800044732108188,
+    "Pearson": 0.4700901970409491,
+    "Pearson_p": 1.7136248742328e-23,
+    "Spearman": 0.42463968800714674,
+    "Spearman_p": 4.975378183937683e-19,
+    "n_samples": 402.0
+  },
+  "test_metrics": {
+    "MAE": 1.4519824984057674,
+    "RMSE": 2.1420953463229035,
+    "R2": 0.10247920388857878,
+    "Pearson": 0.33096836135384033,
+    "Pearson_p": 2.159699872532459e-10,
+    "Spearman": 0.281327502815263,
+    "Spearman_p": 8.659382262533042e-08,
+    "n_samples": 350.0
+  },
+  "grouped_5fold_cv": {
+    "MAE_mean": 1.1337980332730688,
+    "MAE_std": 0.06037614447108996,
+    "RMSE_mean": 1.5508344977762756,
+    "RMSE_std": 0.12413388419141179,
+    "R2_mean": 0.1650144022522775,
+    "R2_std": 0.047532865929776624,
+    "Pearson_mean": 0.44971803523719966,
+    "Pearson_std": 0.09546208229887317,
+    "Spearman_mean": 0.41802931198534854,
+    "Spearman_std": 0.08483695452709343
+  }
+}

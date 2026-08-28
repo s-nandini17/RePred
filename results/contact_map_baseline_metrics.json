@@ -1,0 +1,50 @@
+{
+  "representation_name": "Experimental WT Contact Map",
+  "dimensions": 107,
+  "model": "RandomForestRegressor(n_estimators=150, max_depth=12, random_state=42)",
+  "train_samples": 2681,
+  "validation_samples": 402,
+  "test_samples": 350,
+  "train_metrics": {
+    "MAE": 0.45252040857598724,
+    "RMSE": 0.6019943988185651,
+    "R2": 0.8833507898715346,
+    "Pearson": 0.9533828090556539,
+    "Pearson_p": 0.0,
+    "Spearman": 0.9258073545588701,
+    "Spearman_p": 0.0,
+    "n_samples": 2681.0
+  },
+  "validation_metrics": {
+    "MAE": 1.1268662154727216,
+    "RMSE": 1.5052203002870068,
+    "R2": 0.11751817458239233,
+    "Pearson": 0.4675437939341928,
+    "Pearson_p": 3.177086942379413e-23,
+    "Spearman": 0.4399260090938328,
+    "Spearman_p": 1.8620184942003926e-20,
+    "n_samples": 402.0
+  },
+  "test_metrics": {
+    "MAE": 1.4638493456758073,
+    "RMSE": 2.1701188284390716,
+    "R2": 0.07884236669104316,
+    "Pearson": 0.3095363318573464,
+    "Pearson_p": 3.2966467924399394e-09,
+    "Spearman": 0.20477888550446305,
+    "Spearman_p": 0.00011416803113045391,
+    "n_samples": 350.0
+  },
+  "grouped_5fold_cv": {
+    "MAE_mean": 1.1233663918777395,
+    "MAE_std": 0.10799148970525045,
+    "RMSE_mean": 1.509045137735398,
+    "RMSE_std": 0.1799883986514351,
+    "R2_mean": 0.2077649142455175,
+    "R2_std": 0.12923800482605394,
+    "Pearson_mean": 0.5213576975285642,
+    "Pearson_std": 0.13893258561284105,
+    "Spearman_mean": 0.4749055735222317,
+    "Spearman_std": 0.13659449074569366
+  }
+}

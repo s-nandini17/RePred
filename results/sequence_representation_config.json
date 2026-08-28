@@ -1,0 +1,25 @@
+{
+  "representation_name": "Hand-Engineered Sequence/Mutation Representation",
+  "total_feature_dimension": 252,
+  "ablation_mode": null,
+  "context_k": 5,
+  "out_of_range_context_policy": "Out-of-range sequence context is represented by a zero vector to indicate unavailable context.",
+  "amino_acid_encoding": "20_dimensional_one_hot",
+  "property_features": [
+    "BLOSUM62",
+    "delta_hydrophobicity",
+    "delta_volume",
+    "delta_pI",
+    "delta_molecular_weight",
+    "wild_type_hydrophobicity",
+    "mutant_hydrophobicity",
+    "wild_type_volume",
+    "mutant_volume"
+  ],
+  "position_features": [
+    "absolute_position",
+    "sequence_length",
+    "relative_position"
+  ],
+  "context_features": "5_residues_before_and_5_residues_after"
+}

@@ -1,0 +1,237 @@
+{
+  "total_fireprot_mutations": 3438,
+  "mapped_mutations": 3433,
+  "excluded_unmapped_mutations": 5,
+  "unique_uniprot_ids": 100,
+  "unique_pdb_ids": 100,
+  "contact_threshold_A": 8.0,
+  "feature_dimensions": 107,
+  "nan_count": 0,
+  "inf_count": 0,
+  "negative_distance_count": 0,
+  "self_contact_count": 0,
+  "symmetry_violation_count": 0,
+  "reproducibility": "PASS",
+  "sample_inspections": [
+    {
+      "experiment_id": "LL000714",
+      "uniprot_id": "P06654",
+      "pdb_id": "1PGA",
+      "chain": "A",
+      "fireprot_position": 1,
+      "pdb_residue_number": 1,
+      "wild_type": "M",
+      "mutation": "A",
+      "contact_count_8A": 6,
+      "long_range_contact_count_gt10": 4,
+      "contacting_neighbors": [
+        {
+          "resnum": 2,
+          "aa": "T",
+          "distance_A": 3.799,
+          "seq_separation": 1
+        },
+        {
+          "resnum": 20,
+          "aa": "A",
+          "distance_A": 5.568,
+          "seq_separation": 19
+        },
+        {
+          "resnum": 19,
+          "aa": "E",
+          "distance_A": 5.572,
+          "seq_separation": 18
+        },
+        {
+          "resnum": 21,
+          "aa": "V",
+          "distance_A": 6.132,
+          "seq_separation": 20
+        },
+        {
+          "resnum": 3,
+          "aa": "Y",
+          "distance_A": 6.472,
+          "seq_separation": 2
+        }
+      ]
+    },
+    {
+      "experiment_id": "LL000715",
+      "uniprot_id": "P06654",
+      "pdb_id": "1PGA",
+      "chain": "A",
+      "fireprot_position": 1,
+      "pdb_residue_number": 1,
+      "wild_type": "M",
+      "mutation": "D",
+      "contact_count_8A": 6,
+      "long_range_contact_count_gt10": 4,
+      "contacting_neighbors": [
+        {
+          "resnum": 2,
+          "aa": "T",
+          "distance_A": 3.799,
+          "seq_separation": 1
+        },
+        {
+          "resnum": 20,
+          "aa": "A",
+          "distance_A": 5.568,
+          "seq_separation": 19
+        },
+        {
+          "resnum": 19,
+          "aa": "E",
+          "distance_A": 5.572,
+          "seq_separation": 18
+        },
+        {
+          "resnum": 21,
+          "aa": "V",
+          "distance_A": 6.132,
+          "seq_separation": 20
+        },
+        {
+          "resnum": 3,
+          "aa": "Y",
+          "distance_A": 6.472,
+          "seq_separation": 2
+        }
+      ]
+    },
+    {
+      "experiment_id": "LL000716",
+      "uniprot_id": "P06654",
+      "pdb_id": "1PGA",
+      "chain": "A",
+      "fireprot_position": 1,
+      "pdb_residue_number": 1,
+      "wild_type": "M",
+      "mutation": "E",
+      "contact_count_8A": 6,
+      "long_range_contact_count_gt10": 4,
+      "contacting_neighbors": [
+        {
+          "resnum": 2,
+          "aa": "T",
+          "distance_A": 3.799,
+          "seq_separation": 1
+        },
+        {
+          "resnum": 20,
+          "aa": "A",
+          "distance_A": 5.568,
+          "seq_separation": 19
+        },
+        {
+          "resnum": 19,
+          "aa": "E",
+          "distance_A": 5.572,
+          "seq_separation": 18
+        },
+        {
+          "resnum": 21,
+          "aa": "V",
+          "distance_A": 6.132,
+          "seq_separation": 20
+        },
+        {
+          "resnum": 3,
+          "aa": "Y",
+          "distance_A": 6.472,
+          "seq_separation": 2
+        }
+      ]
+    },
+    {
+      "experiment_id": "LL000717",
+      "uniprot_id": "P06654",
+      "pdb_id": "1PGA",
+      "chain": "A",
+      "fireprot_position": 1,
+      "pdb_residue_number": 1,
+      "wild_type": "M",
+      "mutation": "F",
+      "contact_count_8A": 6,
+      "long_range_contact_count_gt10": 4,
+      "contacting_neighbors": [
+        {
+          "resnum": 2,
+          "aa": "T",
+          "distance_A": 3.799,
+          "seq_separation": 1
+        },
+        {
+          "resnum": 20,
+          "aa": "A",
+          "distance_A": 5.568,
+          "seq_separation": 19
+        },
+        {
+          "resnum": 19,
+          "aa": "E",
+          "distance_A": 5.572,
+          "seq_separation": 18
+        },
+        {
+          "resnum": 21,
+          "aa": "V",
+          "distance_A": 6.132,
+          "seq_separation": 20
+        },
+        {
+          "resnum": 3,
+          "aa": "Y",
+          "distance_A": 6.472,
+          "seq_separation": 2
+        }
+      ]
+    },
+    {
+      "experiment_id": "LL000718",
+      "uniprot_id": "P06654",
+      "pdb_id": "1PGA",
+      "chain": "A",
+      "fireprot_position": 1,
+      "pdb_residue_number": 1,
+      "wild_type": "M",
+      "mutation": "G",
+      "contact_count_8A": 6,
+      "long_range_contact_count_gt10": 4,
+      "contacting_neighbors": [
+        {
+          "resnum": 2,
+          "aa": "T",
+          "distance_A": 3.799,
+          "seq_separation": 1
+        },
+        {
+          "resnum": 20,
+          "aa": "A",
+          "distance_A": 5.568,
+          "seq_separation": 19
+        },
+        {
+          "resnum": 19,
+          "aa": "E",
+          "distance_A": 5.572,
+          "seq_separation": 18
+        },
+        {
+          "resnum": 21,
+          "aa": "V",
+          "distance_A": 6.132,
+          "seq_separation": 20
+        },
+        {
+          "resnum": 3,
+          "aa": "Y",
+          "distance_A": 6.472,
+          "seq_separation": 2
+        }
+      ]
+    }
+  ]
+}

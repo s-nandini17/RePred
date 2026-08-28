@@ -1,0 +1,18 @@
+{
+  "mapping_strategy": "Pairwise Sequence Alignment (Bio.Align.PairwiseAligner global mode) between canonical FireProt sequence and PDB ATOM residue sequence",
+  "total_mutations": 3438,
+  "successfully_mapped_mutations": 3433,
+  "unmapped_mutations": 5,
+  "mapping_success_percentage": 99.85,
+  "wt_residue_agreement_count": 3433,
+  "wt_residue_mismatch_count": 0,
+  "wt_residue_agreement_percentage": 100.0,
+  "ca_coordinate_available": 3433,
+  "backbone_coordinate_available": 3433,
+  "sidechain_coordinate_available": 3432,
+  "residue_number_offset_count": 2556,
+  "insertion_code_count": 1,
+  "missing_coordinates_count": 0,
+  "wt_structures_available": 100,
+  "mutant_structures_available": 0
+}

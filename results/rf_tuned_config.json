@@ -1,0 +1,17 @@
+{
+  "cv_method": "5-fold GroupKFold",
+  "grouping_variable": "uniprot_id",
+  "primary_selection_metric": "mean_cv_MAE",
+  "direction": "minimize",
+  "best_mean_cv_MAE": 1.2204337194543555,
+  "best_hyperparameters": {
+    "n_estimators": 300,
+    "min_samples_split": 5,
+    "min_samples_leaf": 20,
+    "max_features": 0.5,
+    "max_depth": 12
+  },
+  "n_dev_samples": 3088,
+  "n_test_samples": 350,
+  "random_state": 42
+}

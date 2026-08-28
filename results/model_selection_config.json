@@ -1,0 +1,24 @@
+{
+  "primary_selection_metric": "validation_MAE",
+  "direction": "minimize",
+  "evaluation_protocol": "Model selection strictly based on Validation MAE. Test set reserved for final evaluation.",
+  "best_model_selected": "RandomForest",
+  "best_validation_MAE": 1.134913154299875,
+  "hyperparameters": {
+    "Ridge": {
+      "alpha": 10.0,
+      "random_state": 42
+    },
+    "RandomForest": {
+      "n_estimators": 150,
+      "max_depth": 12,
+      "random_state": 42
+    },
+    "GradientBoosting": {
+      "n_estimators": 150,
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "random_state": 42
+    }
+  }
+}

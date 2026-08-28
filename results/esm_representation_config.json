@@ -1,0 +1,18 @@
+{
+  "model_name": "esm2_t6_8M_UR50D",
+  "model_checkpoint": "/Users/a2251/.cache/torch/hub/checkpoints/esm2_t6_8M_UR50D.pt",
+  "parameter_count": 7512474,
+  "embedding_dimension": 320,
+  "mutation_feature_dimension": 1280,
+  "feature_schema": [
+    "WT positional ESM embedding (320)",
+    "MUT positional ESM embedding (320)",
+    "Difference embedding MUT - WT (320)",
+    "Mean-pooled WT sequence embedding (320)"
+  ],
+  "special_token_handling": "Token 0 is <cls>, Token L+1 is <eos>. 1-based biological position p maps directly to token index p.",
+  "hand_engineered_features_included": false,
+  "esm_frozen": true,
+  "n_unique_wt_sequences": 100,
+  "n_unique_mut_sequences": 3404
+}
