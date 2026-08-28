@@ -1,0 +1,13 @@
+{
+  "best_test_mae_representation": "ESM-2 8M",
+  "best_test_mae": 1.4335,
+  "best_test_r2_representation": "Experimental WT 3D",
+  "best_test_r2": 0.1178,
+  "best_grouped_cv_mae_representation": "Experimental WT Contact Map",
+  "best_grouped_cv_mae": 1.1234,
+  "best_grouped_cv_r2_representation": "Experimental WT Contact Map",
+  "best_grouped_cv_r2": 0.2078,
+  "best_grouped_cv_pearson_representation": "Experimental WT Contact Map",
+  "best_grouped_cv_pearson": 0.5214,
+  "scientific_interpretation": "1. ESM-2 achieves the lowest MAE on the single official held-out test set.\n2. Experimental WT 3D achieves the highest official-test R\u00b2 and Pearson correlation.\n3. Experimental WT Contact Map achieves the strongest grouped cross-protein performance.\n4. Protein GNN is competitive but does not outperform Contact Map under grouped CV.\n5. Therefore there is no single universal winner across every metric/evaluation setting.\n6. Structural/contact representations show stronger cross-protein robustness than the sequence-only representations in this benchmark."
+}

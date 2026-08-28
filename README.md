@@ -3,12 +3,16 @@
 Research benchmark evaluating protein design representations on experimental $\Delta\Delta G$ prediction.
 
 ## Research Objective
-Evaluate and compare representation paradigms for protein design tasks:
-1. **Hand-Engineered Sequence/Mutation Representation** (Milestone 1 Baseline, 252 Dims)
-2. **ESM Learned Protein Representation** (Milestone 2 Baseline, 1,280 Dims)
-3. **Experimental WT 3D Structural Representation** (Milestone 3 Baseline, 131 Dims)
-4. **Experimental WT Contact Map Representation** (Milestone 5 Baseline, 107 Dims)
-5. **Experimental WT Protein Graph + Graph Neural Network** (Milestone 6A Baseline, 58D Node / 3D Edge)
+The benchmark asks whether the way a protein is represented changes the ability to predict mutation-induced $\Delta\Delta G$.
+
+Five representation paradigms were evaluated:
+1. **Hand-Engineered Sequence** (252D + Random Forest)
+2. **ESM-2 8M** (1280D + Random Forest)
+3. **Experimental WT 3D** (131D + Random Forest)
+4. **Experimental WT Contact Map** (107D + Random Forest)
+5. **Experimental WT Protein Graph** (3-Layer EdgeConv GNN)
+
+All used real FireProt experimental measurements and the exact same protein-held-out evaluation framework.
 
 ---
 
@@ -19,7 +23,7 @@ Evaluate and compare representation paradigms for protein design tasks:
 
 ---
 
-## Controlled Representation Benchmark Results ($N=3,433$)
+## Final Representation Benchmark Results ($N=3,433$)
 
 ### 1. Official Split Benchmark Results (Fixed Model Selection on Validation Set, $N=350$ Test)
 
@@ -45,24 +49,13 @@ Evaluate and compare representation paradigms for protein design tasks:
 
 ---
 
-## Key Findings (Milestones 1–6A)
-1. **Lowest Validation MAE**: **Protein GNN** achieves the overall lowest Validation MAE (**`1.0678 kcal/mol`**) on the official split.
-2. **Cross-Protein Generalization**: **Experimental WT Contact Map (107D)** retains the lowest mean Cross-Validation MAE (**`1.1234 kcal/mol`**) and highest Pearson correlation (**`r = 0.5214`**) across unseen proteins in 5-fold grouped CV.
-3. **Robustness Variance**: **Protein GNN** exhibits the lowest performance variance across cross-protein folds ($\pm 0.0604$ MAE), indicating stable message passing behavior across diverse structural topologies.
+## Final Scientific Conclusion
+> ESM-2 achieved the lowest MAE on the official held-out test set, whereas the Experimental WT Contact Map achieved the strongest cross-protein grouped-CV performance. Experimental WT 3D achieved the highest test $R^2$ and Pearson correlation. The Protein GNN remained competitive but did not improve over the simpler Contact Map representation under grouped cross-protein evaluation.
 
 ---
 
 ## Generated Artifacts & Visualizations
-- PyTorch GNN Architecture: [`src/models/protein_gnn.py`](file:///Users/a2251/Desktop/hack_demo1/src/models/protein_gnn.py)
-- Protein GNN Training Script: [`scripts/train_protein_gnn.py`](file:///Users/a2251/Desktop/hack_demo1/scripts/train_protein_gnn.py)
-- Contact Map Extractor: [`src/representations/contact_map.py`](file:///Users/a2251/Desktop/hack_demo1/src/representations/contact_map.py)
-- Benchmark Data Files:
-  - [`results/protein_gnn_predictions.csv`](file:///Users/a2251/Desktop/hack_demo1/results/protein_gnn_predictions.csv)
-  - [`results/protein_gnn_metrics.json`](file:///Users/a2251/Desktop/hack_demo1/results/protein_gnn_metrics.json)
-  - [`results/protein_gnn_grouped_cv.csv`](file:///Users/a2251/Desktop/hack_demo1/results/protein_gnn_grouped_cv.csv)
-  - [`results/representation_benchmark.csv`](file:///Users/a2251/Desktop/hack_demo1/results/representation_benchmark.csv)
-  - [`results/grouped_cv_comparison.csv`](file:///Users/a2251/Desktop/hack_demo1/results/grouped_cv_comparison.csv)
-- Generated Plots:
-  - [`results/plots/protein_gnn_predicted_vs_experimental.png`](file:///Users/a2251/Desktop/hack_demo1/results/plots/protein_gnn_predicted_vs_experimental.png)
-  - [`results/plots/protein_gnn_residual_distribution.png`](file:///Users/a2251/Desktop/hack_demo1/results/plots/protein_gnn_residual_distribution.png)
-  - [`results/plots/protein_gnn_training_curve.png`](file:///Users/a2251/Desktop/hack_demo1/results/plots/protein_gnn_training_curve.png)
+- Master Comparison CSV: [`results/final_representation_comparison.csv`](file:///Users/a2251/Desktop/hack_demo1/results/final_representation_comparison.csv)
+- Master Plot: [`results/plots/final_representation_benchmark.png`](file:///Users/a2251/Desktop/hack_demo1/results/plots/final_representation_benchmark.png)
+- Master JSON Summary: [`results/final_benchmark_summary.json`](file:///Users/a2251/Desktop/hack_demo1/results/final_benchmark_summary.json)
+- Consolidation Script: [`scripts/consolidate_final_benchmark.py`](file:///Users/a2251/Desktop/hack_demo1/scripts/consolidate_final_benchmark.py)
