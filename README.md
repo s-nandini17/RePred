@@ -1,4 +1,4 @@
-# Protein Stability Prediction Benchmark — Protein Bench
+# Protein Stability Prediction Benchmark — RePred
 
 Research benchmark evaluating protein design representations on experimental $\Delta\Delta G$ prediction.
 
