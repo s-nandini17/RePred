@@ -1,0 +1,362 @@
+[
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Mutation substitution deltas",
+    "feature_name": "delta_hydrophobicity",
+    "importance": 0.091741678369369,
+    "rank": 1,
+    "interpretation": "Biochemical change in Kyte-Doolittle hydrophobicity from WT to MUT"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Mutation substitution deltas",
+    "feature_name": "delta_volume_vdw",
+    "importance": 0.0807471328732735,
+    "rank": 2,
+    "interpretation": "Van der Waals volume delta resulting from amino-acid substitution"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Sequence position",
+    "feature_name": "rel_position",
+    "importance": 0.0690297257156406,
+    "rank": 3,
+    "interpretation": "Predictive reliance on Sequence position (rel_position)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Sequence position",
+    "feature_name": "seq_len",
+    "importance": 0.0624480527583636,
+    "rank": 4,
+    "interpretation": "Predictive reliance on Sequence position (seq_len)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Sidechain properties",
+    "feature_name": "wt_hydrophobicity",
+    "importance": 0.0512996632295332,
+    "rank": 5,
+    "interpretation": "Predictive reliance on Sidechain properties (wt_hydrophobicity)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Sequence position",
+    "feature_name": "position",
+    "importance": 0.0487020944572365,
+    "rank": 6,
+    "interpretation": "Predictive reliance on Sequence position (position)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Sidechain properties",
+    "feature_name": "wt_volume_vdw",
+    "importance": 0.0480399894809969,
+    "rank": 7,
+    "interpretation": "Predictive reliance on Sidechain properties (wt_volume_vdw)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Mutation substitution deltas",
+    "feature_name": "delta_pi_charge",
+    "importance": 0.0391475535241624,
+    "rank": 8,
+    "interpretation": "Predictive reliance on Mutation substitution deltas (delta_pi_charge)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Mutation substitution deltas",
+    "feature_name": "blosum62",
+    "importance": 0.0327130293716813,
+    "rank": 9,
+    "interpretation": "Predictive reliance on Mutation substitution deltas (blosum62)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Mutation substitution deltas",
+    "feature_name": "delta_mol_weight",
+    "importance": 0.0255672301649427,
+    "rank": 10,
+    "interpretation": "Molecular weight difference between WT and MUT side-chains"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Mutation substitution deltas",
+    "feature_name": "mut_onehot_E",
+    "importance": 0.0249562353100701,
+    "rank": 11,
+    "interpretation": "Predictive reliance on Mutation substitution deltas (mut_onehot_E)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Sidechain properties",
+    "feature_name": "mut_volume_vdw",
+    "importance": 0.0173286810978718,
+    "rank": 12,
+    "interpretation": "Predictive reliance on Sidechain properties (mut_volume_vdw)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Sidechain properties",
+    "feature_name": "mut_hydrophobicity",
+    "importance": 0.0119452842119244,
+    "rank": 13,
+    "interpretation": "Predictive reliance on Sidechain properties (mut_hydrophobicity)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Mutation substitution deltas",
+    "feature_name": "mut_onehot_P",
+    "importance": 0.0105527188440244,
+    "rank": 14,
+    "interpretation": "Predictive reliance on Mutation substitution deltas (mut_onehot_P)"
+  },
+  {
+    "representation": "Hand-Engineered Sequence",
+    "feature_group": "Flanking sequence context",
+    "feature_name": "flank_right_+3_V",
+    "importance": 0.0100459342010132,
+    "rank": 15,
+    "interpretation": "Predictive reliance on Flanking sequence context (flank_right_+3_V)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Physicochemical environment",
+    "feature_name": "loc_mol_weight_10A",
+    "importance": 0.1755910541173207,
+    "rank": 1,
+    "interpretation": "Total molecular mass of local residues within 10 \u00c5 spatial radius"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Mutation-specific biochemical changes",
+    "feature_name": "delta_hydrophobicity",
+    "importance": 0.1446793868957786,
+    "rank": 2,
+    "interpretation": "Biochemical change in Kyte-Doolittle hydrophobicity from WT to MUT"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Mutation-specific biochemical changes",
+    "feature_name": "delta_volume_vdw",
+    "importance": 0.0798360528105991,
+    "rank": 3,
+    "interpretation": "Van der Waals volume delta resulting from amino-acid substitution"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Mutation-specific biochemical changes",
+    "feature_name": "delta_mol_weight",
+    "importance": 0.0307454724768366,
+    "rank": 4,
+    "interpretation": "Molecular weight difference between WT and MUT side-chains"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Mutation-specific biochemical changes",
+    "feature_name": "mut_onehot_E",
+    "importance": 0.0242952892845204,
+    "rank": 5,
+    "interpretation": "Predictive reliance on Mutation-specific biochemical changes (mut_onehot_E)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Backbone / B-factor",
+    "feature_name": "sin_phi",
+    "importance": 0.0190338373140218,
+    "rank": 6,
+    "interpretation": "Local backbone flexibility and conformational dihedral angle state"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Backbone / B-factor",
+    "feature_name": "Calpha_B_factor",
+    "importance": 0.0159709427751187,
+    "rank": 7,
+    "interpretation": "Local backbone flexibility and conformational dihedral angle state"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Mutation-specific biochemical changes",
+    "feature_name": "mut_onehot_P",
+    "importance": 0.0142876521681555,
+    "rank": 8,
+    "interpretation": "Predictive reliance on Mutation-specific biochemical changes (mut_onehot_P)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Spatial geometry",
+    "feature_name": "dist_local_COM_A",
+    "importance": 0.0140038317220473,
+    "rank": 9,
+    "interpretation": "Predictive reliance on Spatial geometry (dist_local_COM_A)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Spatial geometry",
+    "feature_name": "contact_count_12A",
+    "importance": 0.0137352225816467,
+    "rank": 10,
+    "interpretation": "Predictive reliance on Spatial geometry (contact_count_12A)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Spatial geometry",
+    "feature_name": "pdb_residue_number",
+    "importance": 0.0132520767869509,
+    "rank": 11,
+    "interpretation": "Predictive reliance on Spatial geometry (pdb_residue_number)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Spatial geometry",
+    "feature_name": "fireprot_position",
+    "importance": 0.0129326891608152,
+    "rank": 12,
+    "interpretation": "Predictive reliance on Spatial geometry (fireprot_position)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Nearest-neighbor environment",
+    "feature_name": "nearest_neighbor_1_dist_A",
+    "importance": 0.0127067145114173,
+    "rank": 13,
+    "interpretation": "Predictive reliance on Nearest-neighbor environment (nearest_neighbor_1_dist_A)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Nearest-neighbor environment",
+    "feature_name": "nearest_neighbor_3_dist_A",
+    "importance": 0.0126309688921714,
+    "rank": 14,
+    "interpretation": "Predictive reliance on Nearest-neighbor environment (nearest_neighbor_3_dist_A)"
+  },
+  {
+    "representation": "Experimental WT 3D",
+    "feature_group": "Spatial geometry",
+    "feature_name": "dist_protein_COM_A",
+    "importance": 0.0119681828346867,
+    "rank": 15,
+    "interpretation": "Predictive reliance on Spatial geometry (dist_protein_COM_A)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Mutation information",
+    "feature_name": "delta_kyte_doolittle",
+    "importance": 0.1510735649771098,
+    "rank": 1,
+    "interpretation": "Predictive reliance on Mutation information (delta_kyte_doolittle)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "contact_count_10A",
+    "importance": 0.1471511665340327,
+    "rank": 2,
+    "interpretation": "Predictive reliance on Contact counts / network (contact_count_10A)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Mutation information",
+    "feature_name": "delta_vdw_volume",
+    "importance": 0.0935121306544875,
+    "rank": 3,
+    "interpretation": "Predictive reliance on Mutation information (delta_vdw_volume)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Mutation information",
+    "feature_name": "delta_mol_weight",
+    "importance": 0.0319832665958173,
+    "rank": 4,
+    "interpretation": "Molecular weight difference between WT and MUT side-chains"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "contact_mean_mol_weight",
+    "importance": 0.0250811770215958,
+    "rank": 5,
+    "interpretation": "Predictive reliance on Contact counts / network (contact_mean_mol_weight)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "fireprot_position",
+    "importance": 0.0244266761273992,
+    "rank": 6,
+    "interpretation": "Predictive reliance on Contact counts / network (fireprot_position)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "pdb_residue_number",
+    "importance": 0.0222393603150852,
+    "rank": 7,
+    "interpretation": "Predictive reliance on Contact counts / network (pdb_residue_number)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "mut_is_E",
+    "importance": 0.0220594852405465,
+    "rank": 8,
+    "interpretation": "Predictive reliance on Contact counts / network (mut_is_E)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "contact_count_8A",
+    "importance": 0.0210701580449609,
+    "rank": 9,
+    "interpretation": "Predictive reliance on Contact counts / network (contact_count_8A)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "local_contact_density_8A",
+    "importance": 0.0204071717860227,
+    "rank": 10,
+    "interpretation": "Predictive reliance on Contact counts / network (local_contact_density_8A)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "std_seq_separation_8A",
+    "importance": 0.0191067517885193,
+    "rank": 11,
+    "interpretation": "Predictive reliance on Contact counts / network (std_seq_separation_8A)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "contact_mean_vdw_volume",
+    "importance": 0.0186682048158828,
+    "rank": 12,
+    "interpretation": "Predictive reliance on Contact counts / network (contact_mean_vdw_volume)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "max_seq_separation_8A",
+    "importance": 0.0180015920685644,
+    "rank": 13,
+    "interpretation": "Predictive reliance on Contact counts / network (max_seq_separation_8A)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "std_contact_distance_8A",
+    "importance": 0.017932900756581,
+    "rank": 14,
+    "interpretation": "Predictive reliance on Contact counts / network (std_contact_distance_8A)"
+  },
+  {
+    "representation": "Experimental WT Contact Map",
+    "feature_group": "Contact counts / network",
+    "feature_name": "contact_mean_kyte_doolittle",
+    "importance": 0.0158699556196177,
+    "rank": 15,
+    "interpretation": "Predictive reliance on Contact counts / network (contact_mean_kyte_doolittle)"
+  }
+]

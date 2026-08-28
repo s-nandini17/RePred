@@ -1,0 +1,46 @@
+representation,feature_group,feature_name,importance,rank,interpretation
+Hand-Engineered Sequence,Mutation substitution deltas,delta_hydrophobicity,0.09174167836936906,1,Biochemical change in Kyte-Doolittle hydrophobicity from WT to MUT
+Hand-Engineered Sequence,Mutation substitution deltas,delta_volume_vdw,0.08074713287327358,2,Van der Waals volume delta resulting from amino-acid substitution
+Hand-Engineered Sequence,Sequence position,rel_position,0.06902972571564069,3,Predictive reliance on Sequence position (rel_position)
+Hand-Engineered Sequence,Sequence position,seq_len,0.06244805275836367,4,Predictive reliance on Sequence position (seq_len)
+Hand-Engineered Sequence,Sidechain properties,wt_hydrophobicity,0.051299663229533214,5,Predictive reliance on Sidechain properties (wt_hydrophobicity)
+Hand-Engineered Sequence,Sequence position,position,0.04870209445723652,6,Predictive reliance on Sequence position (position)
+Hand-Engineered Sequence,Sidechain properties,wt_volume_vdw,0.048039989480996935,7,Predictive reliance on Sidechain properties (wt_volume_vdw)
+Hand-Engineered Sequence,Mutation substitution deltas,delta_pi_charge,0.03914755352416246,8,Predictive reliance on Mutation substitution deltas (delta_pi_charge)
+Hand-Engineered Sequence,Mutation substitution deltas,blosum62,0.032713029371681385,9,Predictive reliance on Mutation substitution deltas (blosum62)
+Hand-Engineered Sequence,Mutation substitution deltas,delta_mol_weight,0.02556723016494278,10,Molecular weight difference between WT and MUT side-chains
+Hand-Engineered Sequence,Mutation substitution deltas,mut_onehot_E,0.024956235310070178,11,Predictive reliance on Mutation substitution deltas (mut_onehot_E)
+Hand-Engineered Sequence,Sidechain properties,mut_volume_vdw,0.01732868109787182,12,Predictive reliance on Sidechain properties (mut_volume_vdw)
+Hand-Engineered Sequence,Sidechain properties,mut_hydrophobicity,0.011945284211924423,13,Predictive reliance on Sidechain properties (mut_hydrophobicity)
+Hand-Engineered Sequence,Mutation substitution deltas,mut_onehot_P,0.010552718844024407,14,Predictive reliance on Mutation substitution deltas (mut_onehot_P)
+Hand-Engineered Sequence,Flanking sequence context,flank_right_+3_V,0.010045934201013254,15,Predictive reliance on Flanking sequence context (flank_right_+3_V)
+Experimental WT 3D,Physicochemical environment,loc_mol_weight_10A,0.17559105411732073,1,Total molecular mass of local residues within 10 Å spatial radius
+Experimental WT 3D,Mutation-specific biochemical changes,delta_hydrophobicity,0.14467938689577864,2,Biochemical change in Kyte-Doolittle hydrophobicity from WT to MUT
+Experimental WT 3D,Mutation-specific biochemical changes,delta_volume_vdw,0.07983605281059916,3,Van der Waals volume delta resulting from amino-acid substitution
+Experimental WT 3D,Mutation-specific biochemical changes,delta_mol_weight,0.03074547247683661,4,Molecular weight difference between WT and MUT side-chains
+Experimental WT 3D,Mutation-specific biochemical changes,mut_onehot_E,0.02429528928452047,5,Predictive reliance on Mutation-specific biochemical changes (mut_onehot_E)
+Experimental WT 3D,Backbone / B-factor,sin_phi,0.01903383731402184,6,Local backbone flexibility and conformational dihedral angle state
+Experimental WT 3D,Backbone / B-factor,Calpha_B_factor,0.01597094277511876,7,Local backbone flexibility and conformational dihedral angle state
+Experimental WT 3D,Mutation-specific biochemical changes,mut_onehot_P,0.014287652168155598,8,Predictive reliance on Mutation-specific biochemical changes (mut_onehot_P)
+Experimental WT 3D,Spatial geometry,dist_local_COM_A,0.014003831722047394,9,Predictive reliance on Spatial geometry (dist_local_COM_A)
+Experimental WT 3D,Spatial geometry,contact_count_12A,0.013735222581646746,10,Predictive reliance on Spatial geometry (contact_count_12A)
+Experimental WT 3D,Spatial geometry,pdb_residue_number,0.013252076786950924,11,Predictive reliance on Spatial geometry (pdb_residue_number)
+Experimental WT 3D,Spatial geometry,fireprot_position,0.0129326891608152,12,Predictive reliance on Spatial geometry (fireprot_position)
+Experimental WT 3D,Nearest-neighbor environment,nearest_neighbor_1_dist_A,0.012706714511417356,13,Predictive reliance on Nearest-neighbor environment (nearest_neighbor_1_dist_A)
+Experimental WT 3D,Nearest-neighbor environment,nearest_neighbor_3_dist_A,0.012630968892171482,14,Predictive reliance on Nearest-neighbor environment (nearest_neighbor_3_dist_A)
+Experimental WT 3D,Spatial geometry,dist_protein_COM_A,0.011968182834686711,15,Predictive reliance on Spatial geometry (dist_protein_COM_A)
+Experimental WT Contact Map,Mutation information,delta_kyte_doolittle,0.1510735649771098,1,Predictive reliance on Mutation information (delta_kyte_doolittle)
+Experimental WT Contact Map,Contact counts / network,contact_count_10A,0.1471511665340327,2,Predictive reliance on Contact counts / network (contact_count_10A)
+Experimental WT Contact Map,Mutation information,delta_vdw_volume,0.09351213065448757,3,Predictive reliance on Mutation information (delta_vdw_volume)
+Experimental WT Contact Map,Mutation information,delta_mol_weight,0.03198326659581731,4,Molecular weight difference between WT and MUT side-chains
+Experimental WT Contact Map,Contact counts / network,contact_mean_mol_weight,0.025081177021595853,5,Predictive reliance on Contact counts / network (contact_mean_mol_weight)
+Experimental WT Contact Map,Contact counts / network,fireprot_position,0.024426676127399252,6,Predictive reliance on Contact counts / network (fireprot_position)
+Experimental WT Contact Map,Contact counts / network,pdb_residue_number,0.022239360315085263,7,Predictive reliance on Contact counts / network (pdb_residue_number)
+Experimental WT Contact Map,Contact counts / network,mut_is_E,0.02205948524054655,8,Predictive reliance on Contact counts / network (mut_is_E)
+Experimental WT Contact Map,Contact counts / network,contact_count_8A,0.02107015804496099,9,Predictive reliance on Contact counts / network (contact_count_8A)
+Experimental WT Contact Map,Contact counts / network,local_contact_density_8A,0.020407171786022773,10,Predictive reliance on Contact counts / network (local_contact_density_8A)
+Experimental WT Contact Map,Contact counts / network,std_seq_separation_8A,0.019106751788519352,11,Predictive reliance on Contact counts / network (std_seq_separation_8A)
+Experimental WT Contact Map,Contact counts / network,contact_mean_vdw_volume,0.018668204815882834,12,Predictive reliance on Contact counts / network (contact_mean_vdw_volume)
+Experimental WT Contact Map,Contact counts / network,max_seq_separation_8A,0.01800159206856441,13,Predictive reliance on Contact counts / network (max_seq_separation_8A)
+Experimental WT Contact Map,Contact counts / network,std_contact_distance_8A,0.017932900756581063,14,Predictive reliance on Contact counts / network (std_contact_distance_8A)
+Experimental WT Contact Map,Contact counts / network,contact_mean_kyte_doolittle,0.015869955619617775,15,Predictive reliance on Contact counts / network (contact_mean_kyte_doolittle)

@@ -1,0 +1,656 @@
+[
+  {
+    "feature_name": "delta_kyte_doolittle",
+    "importance": 0.1510735649771098,
+    "rank": 1,
+    "feature_group": "Mutation information"
+  },
+  {
+    "feature_name": "contact_count_10A",
+    "importance": 0.1471511665340327,
+    "rank": 2,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "delta_vdw_volume",
+    "importance": 0.0935121306544875,
+    "rank": 3,
+    "feature_group": "Mutation information"
+  },
+  {
+    "feature_name": "delta_mol_weight",
+    "importance": 0.0319832665958173,
+    "rank": 4,
+    "feature_group": "Mutation information"
+  },
+  {
+    "feature_name": "contact_mean_mol_weight",
+    "importance": 0.0250811770215958,
+    "rank": 5,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "fireprot_position",
+    "importance": 0.0244266761273992,
+    "rank": 6,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "pdb_residue_number",
+    "importance": 0.0222393603150852,
+    "rank": 7,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_E",
+    "importance": 0.0220594852405465,
+    "rank": 8,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_count_8A",
+    "importance": 0.0210701580449609,
+    "rank": 9,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "local_contact_density_8A",
+    "importance": 0.0204071717860227,
+    "rank": 10,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "std_seq_separation_8A",
+    "importance": 0.0191067517885193,
+    "rank": 11,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_mean_vdw_volume",
+    "importance": 0.0186682048158828,
+    "rank": 12,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "max_seq_separation_8A",
+    "importance": 0.0180015920685644,
+    "rank": 13,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "std_contact_distance_8A",
+    "importance": 0.017932900756581,
+    "rank": 14,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_mean_kyte_doolittle",
+    "importance": 0.0158699556196177,
+    "rank": 15,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_P",
+    "importance": 0.0139099908501974,
+    "rank": 16,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_mean_formal_charge",
+    "importance": 0.0134045723303812,
+    "rank": 17,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mean_seq_separation_8A",
+    "importance": 0.0132482152734319,
+    "rank": 18,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mean_contact_distance_8A",
+    "importance": 0.0131328420240183,
+    "rank": 19,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_mean_polarity",
+    "importance": 0.0125707523618233,
+    "rank": 20,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_Y",
+    "importance": 0.0117601094301231,
+    "rank": 21,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_Y",
+    "importance": 0.010247295449845,
+    "rank": 22,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_A",
+    "importance": 0.0097830800157201,
+    "rank": 23,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_total_charge",
+    "importance": 0.009440587004178,
+    "rank": 24,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_C",
+    "importance": 0.0090994927568334,
+    "rank": 25,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_ratio_long_to_total",
+    "importance": 0.0088788920372553,
+    "rank": 26,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_L",
+    "importance": 0.0086978632312619,
+    "rank": 27,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "delta_formal_charge",
+    "importance": 0.0080608313208234,
+    "rank": 28,
+    "feature_group": "Mutation information"
+  },
+  {
+    "feature_name": "contact_aa_prop_S",
+    "importance": 0.0079674596565707,
+    "rank": 29,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_G",
+    "importance": 0.0075082421368754,
+    "rank": 30,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_K",
+    "importance": 0.0072924677078317,
+    "rank": 31,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_N",
+    "importance": 0.0070387342154301,
+    "rank": 32,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_V",
+    "importance": 0.0069630018569685,
+    "rank": 33,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "median_seq_separation_8A",
+    "importance": 0.0064757137004195,
+    "rank": 34,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_count_6A",
+    "importance": 0.0062783742094654,
+    "rank": 35,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_I",
+    "importance": 0.0060956094411284,
+    "rank": 36,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_T",
+    "importance": 0.0056011193980069,
+    "rank": 37,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_C",
+    "importance": 0.0055150910574611,
+    "rank": 38,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_D",
+    "importance": 0.0054414430949912,
+    "rank": 39,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_count_med_seq_5_10",
+    "importance": 0.0053706085746283,
+    "rank": 40,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_E",
+    "importance": 0.0047178441602699,
+    "rank": 41,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_R",
+    "importance": 0.0046126537368438,
+    "rank": 42,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_M",
+    "importance": 0.0044284622470613,
+    "rank": 43,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_K",
+    "importance": 0.0044042332695502,
+    "rank": 44,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_count_long_seq_gt20",
+    "importance": 0.0042415082684296,
+    "rank": 45,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_F",
+    "importance": 0.0041947283179525,
+    "rank": 46,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_G",
+    "importance": 0.0037536838276693,
+    "rank": 47,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "delta_polarity",
+    "importance": 0.0035243833986461,
+    "rank": 48,
+    "feature_group": "Mutation information"
+  },
+  {
+    "feature_name": "contact_aa_count_Y",
+    "importance": 0.0034907505376984,
+    "rank": 49,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_G",
+    "importance": 0.0034645348196073,
+    "rank": 50,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_count_local_seq_le4",
+    "importance": 0.0034477474835264,
+    "rank": 51,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_count_long_seq_gt10",
+    "importance": 0.003395375428766,
+    "rank": 52,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_A",
+    "importance": 0.0031680386134073,
+    "rank": 53,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_A",
+    "importance": 0.0030820013655214,
+    "rank": 54,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_P",
+    "importance": 0.0030288259901581,
+    "rank": 55,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_V",
+    "importance": 0.0029122269615889,
+    "rank": 56,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_A",
+    "importance": 0.0029009280074302,
+    "rank": 57,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_Q",
+    "importance": 0.0028477063989804,
+    "rank": 58,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_L",
+    "importance": 0.0026527614499487,
+    "rank": 59,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_W",
+    "importance": 0.002626370970805,
+    "rank": 60,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_R",
+    "importance": 0.0022082677023028,
+    "rank": 61,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_N",
+    "importance": 0.0021955737203993,
+    "rank": 62,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_L",
+    "importance": 0.0021629964476668,
+    "rank": 63,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_D",
+    "importance": 0.0021282715478351,
+    "rank": 64,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_D",
+    "importance": 0.0021113015889752,
+    "rank": 65,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_T",
+    "importance": 0.0019396121005391,
+    "rank": 66,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_S",
+    "importance": 0.0018963047558001,
+    "rank": 67,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_H",
+    "importance": 0.0018818495636567,
+    "rank": 68,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_D",
+    "importance": 0.0018642213129735,
+    "rank": 69,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_R",
+    "importance": 0.0018413830703447,
+    "rank": 70,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_V",
+    "importance": 0.0017762490443241,
+    "rank": 71,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_L",
+    "importance": 0.0017622039517119,
+    "rank": 72,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_prop_H",
+    "importance": 0.0017312871032569,
+    "rank": 73,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_N",
+    "importance": 0.0017215096774636,
+    "rank": 74,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_P",
+    "importance": 0.0017184963519697,
+    "rank": 75,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_E",
+    "importance": 0.0015655325186461,
+    "rank": 76,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_M",
+    "importance": 0.0015281926730213,
+    "rank": 77,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_C",
+    "importance": 0.0015000012810066,
+    "rank": 78,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_W",
+    "importance": 0.0014975060555561,
+    "rank": 79,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_G",
+    "importance": 0.0014775046247647,
+    "rank": 80,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_M",
+    "importance": 0.0014721263382349,
+    "rank": 81,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_T",
+    "importance": 0.0014581900226485,
+    "rank": 82,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_I",
+    "importance": 0.001407557943051,
+    "rank": 83,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_K",
+    "importance": 0.0014026356118151,
+    "rank": 84,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_C",
+    "importance": 0.0013517429636962,
+    "rank": 85,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_F",
+    "importance": 0.0013147699388571,
+    "rank": 86,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_S",
+    "importance": 0.0012366117449597,
+    "rank": 87,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_M",
+    "importance": 0.0011785461917999,
+    "rank": 88,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_I",
+    "importance": 0.001048666289709,
+    "rank": 89,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_Q",
+    "importance": 0.0010331041641211,
+    "rank": 90,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_S",
+    "importance": 0.0010154849414797,
+    "rank": 91,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_I",
+    "importance": 0.0009716264133317,
+    "rank": 92,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_F",
+    "importance": 0.0009668374751388,
+    "rank": 93,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_N",
+    "importance": 0.0009649067247605,
+    "rank": 94,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_F",
+    "importance": 0.0009540920805664,
+    "rank": 95,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_Y",
+    "importance": 0.0008034041184396,
+    "rank": 96,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_Q",
+    "importance": 0.0007724788776157,
+    "rank": 97,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_Q",
+    "importance": 0.0006905711879116,
+    "rank": 98,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "contact_aa_count_H",
+    "importance": 0.0006147717873728,
+    "rank": 99,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_P",
+    "importance": 0.0005813301863699,
+    "rank": 100,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_W",
+    "importance": 0.000560635629114,
+    "rank": 101,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_R",
+    "importance": 0.0005332629200272,
+    "rank": 102,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_T",
+    "importance": 0.0004110552698135,
+    "rank": 103,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_V",
+    "importance": 0.0004007431020582,
+    "rank": 104,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_E",
+    "importance": 0.0003998942850969,
+    "rank": 105,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_H",
+    "importance": 0.0003025726623645,
+    "rank": 106,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "wt_is_K",
+    "importance": 0.0002867883959129,
+    "rank": 107,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "mut_is_W",
+    "importance": 9.66109057611646e-05,
+    "rank": 108,
+    "feature_group": "Contact counts / network"
+  },
+  {
+    "feature_name": "min_seq_separation_8A",
+    "importance": 0.0,
+    "rank": 109,
+    "feature_group": "Contact counts / network"
+  }
+]

@@ -1,0 +1,134 @@
+feature_name,importance,rank,feature_group
+loc_mol_weight_10A,0.17559105411732073,1,Physicochemical environment
+delta_hydrophobicity,0.14467938689577864,2,Mutation-specific biochemical changes
+delta_volume_vdw,0.07983605281059916,3,Mutation-specific biochemical changes
+delta_mol_weight,0.03074547247683661,4,Mutation-specific biochemical changes
+mut_onehot_E,0.02429528928452047,5,Mutation-specific biochemical changes
+sin_phi,0.01903383731402184,6,Backbone / B-factor
+Calpha_B_factor,0.01597094277511876,7,Backbone / B-factor
+mut_onehot_P,0.014287652168155598,8,Mutation-specific biochemical changes
+dist_local_COM_A,0.014003831722047394,9,Spatial geometry
+contact_count_12A,0.013735222581646746,10,Spatial geometry
+pdb_residue_number,0.013252076786950924,11,Spatial geometry
+fireprot_position,0.0129326891608152,12,Spatial geometry
+nearest_neighbor_1_dist_A,0.012706714511417356,13,Nearest-neighbor environment
+nearest_neighbor_3_dist_A,0.012630968892171482,14,Nearest-neighbor environment
+dist_protein_COM_A,0.011968182834686711,15,Spatial geometry
+dist_weighted_comp_10A_E,0.011827160258915568,16,Distance-weighted composition
+nearest_neighbor_2_dist_A,0.011634407920762169,17,Nearest-neighbor environment
+norm_B_factor,0.01148518595423521,18,Backbone / B-factor
+cos_psi,0.010914333262324898,19,Backbone / B-factor
+dist_weighted_comp_10A_K,0.0108342284577745,20,Distance-weighted composition
+nearest_neighbor_5_dist_A,0.00936993446840973,21,Nearest-neighbor environment
+wt_onehot_Y,0.009283320495148689,22,Mutation-specific biochemical changes
+nearest_neighbor_4_dist_A,0.008765762651044923,23,Nearest-neighbor environment
+loc_charge_10A,0.00876196876277514,24,Physicochemical environment
+dist_weighted_comp_10A_D,0.008099512592505747,25,Distance-weighted composition
+loc_hydrophobicity_10A,0.008075941364934254,26,Physicochemical environment
+dist_weighted_comp_10A_L,0.00793041034418965,27,Distance-weighted composition
+dist_weighted_comp_10A_C,0.00761117265647402,28,Distance-weighted composition
+dist_weighted_comp_10A_Y,0.007452658687372362,29,Distance-weighted composition
+delta_formal_charge,0.007147917142282008,30,Mutation-specific biochemical changes
+sin_psi,0.007128746920266319,31,Backbone / B-factor
+contact_count_8A,0.007108024133289024,32,Spatial geometry
+dist_weighted_comp_10A_N,0.007087629689540569,33,Distance-weighted composition
+dist_weighted_comp_10A_S,0.007049591219720838,34,Distance-weighted composition
+dist_weighted_comp_10A_A,0.006922376321510878,35,Distance-weighted composition
+dist_weighted_comp_10A_G,0.006858245141011426,36,Distance-weighted composition
+dist_weighted_comp_10A_F,0.006643179266896961,37,Distance-weighted composition
+loc_polarity_10A,0.006611467443796978,38,Physicochemical environment
+dist_weighted_comp_10A_R,0.006506533569188701,39,Distance-weighted composition
+cos_phi,0.006477414239565941,40,Backbone / B-factor
+nearest_neighbor_5_hydrophobicity,0.006366609918693113,41,Nearest-neighbor environment
+dist_weighted_comp_10A_V,0.00625900619015563,42,Distance-weighted composition
+dist_weighted_comp_10A_M,0.006022300546221395,43,Distance-weighted composition
+dist_weighted_comp_10A_T,0.006005360441656981,44,Distance-weighted composition
+nearest_neighbor_2_hydrophobicity,0.005845615955366595,45,Nearest-neighbor environment
+nearest_neighbor_1_volume,0.005799496564310541,46,Nearest-neighbor environment
+nearest_neighbor_4_volume,0.005782239099708248,47,Nearest-neighbor environment
+nearest_neighbor_1_charge,0.005717316892639322,48,Nearest-neighbor environment
+nearest_neighbor_1_hydrophobicity,0.005537132260361753,49,Nearest-neighbor environment
+dist_weighted_comp_10A_Q,0.005402734779002802,50,Distance-weighted composition
+dist_weighted_comp_10A_H,0.005331149740365964,51,Distance-weighted composition
+dist_weighted_comp_10A_I,0.004960350133803733,52,Distance-weighted composition
+nearest_neighbor_3_hydrophobicity,0.004717550947348061,53,Nearest-neighbor environment
+nearest_neighbor_3_volume,0.004715097064937973,54,Nearest-neighbor environment
+nearest_neighbor_4_hydrophobicity,0.00464829317218513,55,Nearest-neighbor environment
+nearest_neighbor_2_volume,0.004547367660521108,56,Nearest-neighbor environment
+dist_weighted_comp_10A_P,0.0041763967007598015,57,Distance-weighted composition
+nearest_neighbor_5_volume,0.004153329089264372,58,Nearest-neighbor environment
+wt_onehot_C,0.0040715161343531855,59,Mutation-specific biochemical changes
+dist_weighted_comp_10A_W,0.004037349944758686,60,Distance-weighted composition
+mut_onehot_G,0.003486339009723045,61,Mutation-specific biochemical changes
+comp_count_10A_E,0.0032039230348267327,62,Local amino-acid composition
+mut_onehot_A,0.003042121189686511,63,Mutation-specific biochemical changes
+packing_density_10A,0.002976319942217138,64,Spatial geometry
+wt_onehot_G,0.002891169598023062,65,Mutation-specific biochemical changes
+contact_count_6A,0.002887386045155927,66,Spatial geometry
+contact_count_10A,0.0025994748168047216,67,Spatial geometry
+delta_polarity,0.0023494803245288176,68,Mutation-specific biochemical changes
+comp_count_10A_T,0.0020820760768083374,69,Local amino-acid composition
+mut_onehot_D,0.002066357558999866,70,Mutation-specific biochemical changes
+mut_onehot_H,0.001991883098524593,71,Mutation-specific biochemical changes
+comp_count_10A_L,0.0019862039696702557,72,Local amino-acid composition
+wt_onehot_D,0.0019525450502193386,73,Mutation-specific biochemical changes
+mut_onehot_R,0.0019277182006918973,74,Mutation-specific biochemical changes
+comp_count_10A_A,0.0019262675508292253,75,Local amino-acid composition
+nearest_5_top_aa_comp_A,0.0018147383867141954,76,Nearest-neighbor environment
+comp_count_10A_K,0.0017923260995522724,77,Local amino-acid composition
+comp_count_10A_I,0.001745551953734059,78,Local amino-acid composition
+mut_onehot_K,0.0016944821607751549,79,Mutation-specific biochemical changes
+wt_onehot_A,0.0016264476071821971,80,Mutation-specific biochemical changes
+mut_onehot_L,0.0015950446739227448,81,Mutation-specific biochemical changes
+comp_count_10A_R,0.0015675824420794135,82,Local amino-acid composition
+nearest_neighbor_4_charge,0.0014994975819907397,83,Nearest-neighbor environment
+mut_onehot_C,0.0014690157024449541,84,Mutation-specific biochemical changes
+comp_count_10A_S,0.0014688941315112124,85,Local amino-acid composition
+comp_count_10A_D,0.0014449517488581815,86,Local amino-acid composition
+comp_count_10A_C,0.0013972856126163832,87,Local amino-acid composition
+comp_count_10A_V,0.0013877447301283566,88,Local amino-acid composition
+comp_count_10A_G,0.0013838345504200628,89,Local amino-acid composition
+wt_onehot_N,0.0013615580038055704,90,Mutation-specific biochemical changes
+mut_onehot_V,0.0013514770158264506,91,Mutation-specific biochemical changes
+comp_count_10A_H,0.0013224539881734414,92,Local amino-acid composition
+nearest_5_top_aa_comp_D,0.0013179767531356524,93,Nearest-neighbor environment
+comp_count_10A_M,0.0011993407306967073,94,Local amino-acid composition
+comp_count_10A_N,0.0011523237609867255,95,Local amino-acid composition
+nearest_5_top_aa_comp_K,0.0011370628547614444,96,Nearest-neighbor environment
+comp_count_10A_Y,0.0011363086774570628,97,Local amino-acid composition
+nearest_5_top_aa_comp_E,0.0011289663051757357,98,Nearest-neighbor environment
+mut_onehot_M,0.001116401766824675,99,Mutation-specific biochemical changes
+mut_onehot_S,0.0011107347327143381,100,Mutation-specific biochemical changes
+comp_count_10A_F,0.0010704165011462619,101,Local amino-acid composition
+mut_onehot_F,0.0010164522077562245,102,Mutation-specific biochemical changes
+mut_onehot_I,0.0009761468229872217,103,Mutation-specific biochemical changes
+nearest_neighbor_3_charge,0.0009740083425262693,104,Nearest-neighbor environment
+wt_onehot_L,0.0009401306464745477,105,Mutation-specific biochemical changes
+mut_onehot_N,0.0009393761503372603,106,Mutation-specific biochemical changes
+nearest_5_top_aa_comp_I,0.0009204269010811273,107,Nearest-neighbor environment
+nearest_neighbor_5_charge,0.0008877622409123803,108,Nearest-neighbor environment
+comp_count_10A_P,0.0008875588956482137,109,Local amino-acid composition
+nearest_5_top_aa_comp_H,0.0008557236216412628,110,Nearest-neighbor environment
+mut_onehot_T,0.000852573261754544,111,Mutation-specific biochemical changes
+comp_count_10A_W,0.0008370106236879267,112,Local amino-acid composition
+mut_onehot_Q,0.0008317620117475263,113,Mutation-specific biochemical changes
+comp_count_10A_Q,0.0008037842260827354,114,Local amino-acid composition
+mut_onehot_Y,0.0007179432454818579,115,Mutation-specific biochemical changes
+nearest_neighbor_2_charge,0.0007024192702765653,116,Nearest-neighbor environment
+nearest_5_top_aa_comp_G,0.0006997351078999576,117,Nearest-neighbor environment
+wt_onehot_R,0.000584464485189766,118,Mutation-specific biochemical changes
+wt_onehot_W,0.0005679768660622783,119,Mutation-specific biochemical changes
+nearest_5_top_aa_comp_F,0.0005390142693350716,120,Nearest-neighbor environment
+wt_onehot_F,0.0004286061321236557,121,Mutation-specific biochemical changes
+wt_onehot_M,0.00041018395084385065,122,Mutation-specific biochemical changes
+wt_onehot_S,0.000394692927501842,123,Mutation-specific biochemical changes
+wt_onehot_H,0.00033641933622457056,124,Mutation-specific biochemical changes
+wt_onehot_K,0.0003329272604317854,125,Mutation-specific biochemical changes
+wt_onehot_V,0.00032741391776150886,126,Mutation-specific biochemical changes
+wt_onehot_I,0.0002944802334105854,127,Mutation-specific biochemical changes
+nearest_5_top_aa_comp_C,0.0002316893030767829,128,Nearest-neighbor environment
+wt_onehot_P,0.00022576902362773086,129,Mutation-specific biochemical changes
+wt_onehot_T,0.00019769536308183335,130,Mutation-specific biochemical changes
+wt_onehot_E,0.00012714895756935592,131,Mutation-specific biochemical changes
+mut_onehot_W,7.892027009500432e-05,132,Mutation-specific biochemical changes
+wt_onehot_Q,6.538965558681687e-05,133,Mutation-specific biochemical changes

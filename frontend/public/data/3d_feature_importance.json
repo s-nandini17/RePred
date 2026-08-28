@@ -1,0 +1,800 @@
+[
+  {
+    "feature_name": "loc_mol_weight_10A",
+    "importance": 0.1755910541173207,
+    "rank": 1,
+    "feature_group": "Physicochemical environment"
+  },
+  {
+    "feature_name": "delta_hydrophobicity",
+    "importance": 0.1446793868957786,
+    "rank": 2,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "delta_volume_vdw",
+    "importance": 0.0798360528105991,
+    "rank": 3,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "delta_mol_weight",
+    "importance": 0.0307454724768366,
+    "rank": 4,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_E",
+    "importance": 0.0242952892845204,
+    "rank": 5,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "sin_phi",
+    "importance": 0.0190338373140218,
+    "rank": 6,
+    "feature_group": "Backbone / B-factor"
+  },
+  {
+    "feature_name": "Calpha_B_factor",
+    "importance": 0.0159709427751187,
+    "rank": 7,
+    "feature_group": "Backbone / B-factor"
+  },
+  {
+    "feature_name": "mut_onehot_P",
+    "importance": 0.0142876521681555,
+    "rank": 8,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "dist_local_COM_A",
+    "importance": 0.0140038317220473,
+    "rank": 9,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "contact_count_12A",
+    "importance": 0.0137352225816467,
+    "rank": 10,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "pdb_residue_number",
+    "importance": 0.0132520767869509,
+    "rank": 11,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "fireprot_position",
+    "importance": 0.0129326891608152,
+    "rank": 12,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "nearest_neighbor_1_dist_A",
+    "importance": 0.0127067145114173,
+    "rank": 13,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_3_dist_A",
+    "importance": 0.0126309688921714,
+    "rank": 14,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "dist_protein_COM_A",
+    "importance": 0.0119681828346867,
+    "rank": 15,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_E",
+    "importance": 0.0118271602589155,
+    "rank": 16,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "nearest_neighbor_2_dist_A",
+    "importance": 0.0116344079207621,
+    "rank": 17,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "norm_B_factor",
+    "importance": 0.0114851859542352,
+    "rank": 18,
+    "feature_group": "Backbone / B-factor"
+  },
+  {
+    "feature_name": "cos_psi",
+    "importance": 0.0109143332623248,
+    "rank": 19,
+    "feature_group": "Backbone / B-factor"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_K",
+    "importance": 0.0108342284577745,
+    "rank": 20,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "nearest_neighbor_5_dist_A",
+    "importance": 0.0093699344684097,
+    "rank": 21,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "wt_onehot_Y",
+    "importance": 0.0092833204951486,
+    "rank": 22,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "nearest_neighbor_4_dist_A",
+    "importance": 0.0087657626510449,
+    "rank": 23,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "loc_charge_10A",
+    "importance": 0.0087619687627751,
+    "rank": 24,
+    "feature_group": "Physicochemical environment"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_D",
+    "importance": 0.0080995125925057,
+    "rank": 25,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "loc_hydrophobicity_10A",
+    "importance": 0.0080759413649342,
+    "rank": 26,
+    "feature_group": "Physicochemical environment"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_L",
+    "importance": 0.0079304103441896,
+    "rank": 27,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_C",
+    "importance": 0.007611172656474,
+    "rank": 28,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_Y",
+    "importance": 0.0074526586873723,
+    "rank": 29,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "delta_formal_charge",
+    "importance": 0.007147917142282,
+    "rank": 30,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "sin_psi",
+    "importance": 0.0071287469202663,
+    "rank": 31,
+    "feature_group": "Backbone / B-factor"
+  },
+  {
+    "feature_name": "contact_count_8A",
+    "importance": 0.007108024133289,
+    "rank": 32,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_N",
+    "importance": 0.0070876296895405,
+    "rank": 33,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_S",
+    "importance": 0.0070495912197208,
+    "rank": 34,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_A",
+    "importance": 0.0069223763215108,
+    "rank": 35,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_G",
+    "importance": 0.0068582451410114,
+    "rank": 36,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_F",
+    "importance": 0.0066431792668969,
+    "rank": 37,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "loc_polarity_10A",
+    "importance": 0.0066114674437969,
+    "rank": 38,
+    "feature_group": "Physicochemical environment"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_R",
+    "importance": 0.0065065335691887,
+    "rank": 39,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "cos_phi",
+    "importance": 0.0064774142395659,
+    "rank": 40,
+    "feature_group": "Backbone / B-factor"
+  },
+  {
+    "feature_name": "nearest_neighbor_5_hydrophobicity",
+    "importance": 0.0063666099186931,
+    "rank": 41,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_V",
+    "importance": 0.0062590061901556,
+    "rank": 42,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_M",
+    "importance": 0.0060223005462213,
+    "rank": 43,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_T",
+    "importance": 0.0060053604416569,
+    "rank": 44,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "nearest_neighbor_2_hydrophobicity",
+    "importance": 0.0058456159553665,
+    "rank": 45,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_1_volume",
+    "importance": 0.0057994965643105,
+    "rank": 46,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_4_volume",
+    "importance": 0.0057822390997082,
+    "rank": 47,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_1_charge",
+    "importance": 0.0057173168926393,
+    "rank": 48,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_1_hydrophobicity",
+    "importance": 0.0055371322603617,
+    "rank": 49,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_Q",
+    "importance": 0.0054027347790028,
+    "rank": 50,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_H",
+    "importance": 0.0053311497403659,
+    "rank": 51,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_I",
+    "importance": 0.0049603501338037,
+    "rank": 52,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "nearest_neighbor_3_hydrophobicity",
+    "importance": 0.004717550947348,
+    "rank": 53,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_3_volume",
+    "importance": 0.0047150970649379,
+    "rank": 54,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_4_hydrophobicity",
+    "importance": 0.0046482931721851,
+    "rank": 55,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_2_volume",
+    "importance": 0.0045473676605211,
+    "rank": 56,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_P",
+    "importance": 0.0041763967007598,
+    "rank": 57,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "nearest_neighbor_5_volume",
+    "importance": 0.0041533290892643,
+    "rank": 58,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "wt_onehot_C",
+    "importance": 0.0040715161343531,
+    "rank": 59,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "dist_weighted_comp_10A_W",
+    "importance": 0.0040373499447586,
+    "rank": 60,
+    "feature_group": "Distance-weighted composition"
+  },
+  {
+    "feature_name": "mut_onehot_G",
+    "importance": 0.003486339009723,
+    "rank": 61,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_E",
+    "importance": 0.0032039230348267,
+    "rank": 62,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "mut_onehot_A",
+    "importance": 0.0030421211896865,
+    "rank": 63,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "packing_density_10A",
+    "importance": 0.0029763199422171,
+    "rank": 64,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "wt_onehot_G",
+    "importance": 0.002891169598023,
+    "rank": 65,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "contact_count_6A",
+    "importance": 0.0028873860451559,
+    "rank": 66,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "contact_count_10A",
+    "importance": 0.0025994748168047,
+    "rank": 67,
+    "feature_group": "Spatial geometry"
+  },
+  {
+    "feature_name": "delta_polarity",
+    "importance": 0.0023494803245288,
+    "rank": 68,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_T",
+    "importance": 0.0020820760768083,
+    "rank": 69,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "mut_onehot_D",
+    "importance": 0.0020663575589998,
+    "rank": 70,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_H",
+    "importance": 0.0019918830985245,
+    "rank": 71,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_L",
+    "importance": 0.0019862039696702,
+    "rank": 72,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "wt_onehot_D",
+    "importance": 0.0019525450502193,
+    "rank": 73,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_R",
+    "importance": 0.0019277182006918,
+    "rank": 74,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_A",
+    "importance": 0.0019262675508292,
+    "rank": 75,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_A",
+    "importance": 0.0018147383867141,
+    "rank": 76,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "comp_count_10A_K",
+    "importance": 0.0017923260995522,
+    "rank": 77,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "comp_count_10A_I",
+    "importance": 0.001745551953734,
+    "rank": 78,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "mut_onehot_K",
+    "importance": 0.0016944821607751,
+    "rank": 79,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_A",
+    "importance": 0.0016264476071821,
+    "rank": 80,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_L",
+    "importance": 0.0015950446739227,
+    "rank": 81,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_R",
+    "importance": 0.0015675824420794,
+    "rank": 82,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "nearest_neighbor_4_charge",
+    "importance": 0.0014994975819907,
+    "rank": 83,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "mut_onehot_C",
+    "importance": 0.0014690157024449,
+    "rank": 84,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_S",
+    "importance": 0.0014688941315112,
+    "rank": 85,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "comp_count_10A_D",
+    "importance": 0.0014449517488581,
+    "rank": 86,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "comp_count_10A_C",
+    "importance": 0.0013972856126163,
+    "rank": 87,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "comp_count_10A_V",
+    "importance": 0.0013877447301283,
+    "rank": 88,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "comp_count_10A_G",
+    "importance": 0.00138383455042,
+    "rank": 89,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "wt_onehot_N",
+    "importance": 0.0013615580038055,
+    "rank": 90,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_V",
+    "importance": 0.0013514770158264,
+    "rank": 91,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_H",
+    "importance": 0.0013224539881734,
+    "rank": 92,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_D",
+    "importance": 0.0013179767531356,
+    "rank": 93,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "comp_count_10A_M",
+    "importance": 0.0011993407306967,
+    "rank": 94,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "comp_count_10A_N",
+    "importance": 0.0011523237609867,
+    "rank": 95,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_K",
+    "importance": 0.0011370628547614,
+    "rank": 96,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "comp_count_10A_Y",
+    "importance": 0.001136308677457,
+    "rank": 97,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_E",
+    "importance": 0.0011289663051757,
+    "rank": 98,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "mut_onehot_M",
+    "importance": 0.0011164017668246,
+    "rank": 99,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_S",
+    "importance": 0.0011107347327143,
+    "rank": 100,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_F",
+    "importance": 0.0010704165011462,
+    "rank": 101,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "mut_onehot_F",
+    "importance": 0.0010164522077562,
+    "rank": 102,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_I",
+    "importance": 0.0009761468229872,
+    "rank": 103,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "nearest_neighbor_3_charge",
+    "importance": 0.0009740083425262,
+    "rank": 104,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "wt_onehot_L",
+    "importance": 0.0009401306464745,
+    "rank": 105,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_N",
+    "importance": 0.0009393761503372,
+    "rank": 106,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_I",
+    "importance": 0.0009204269010811,
+    "rank": 107,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_neighbor_5_charge",
+    "importance": 0.0008877622409123,
+    "rank": 108,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "comp_count_10A_P",
+    "importance": 0.0008875588956482,
+    "rank": 109,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_H",
+    "importance": 0.0008557236216412,
+    "rank": 110,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "mut_onehot_T",
+    "importance": 0.0008525732617545,
+    "rank": 111,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_W",
+    "importance": 0.0008370106236879,
+    "rank": 112,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "mut_onehot_Q",
+    "importance": 0.0008317620117475,
+    "rank": 113,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "comp_count_10A_Q",
+    "importance": 0.0008037842260827,
+    "rank": 114,
+    "feature_group": "Local amino-acid composition"
+  },
+  {
+    "feature_name": "mut_onehot_Y",
+    "importance": 0.0007179432454818,
+    "rank": 115,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "nearest_neighbor_2_charge",
+    "importance": 0.0007024192702765,
+    "rank": 116,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_G",
+    "importance": 0.0006997351078999,
+    "rank": 117,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "wt_onehot_R",
+    "importance": 0.0005844644851897,
+    "rank": 118,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_W",
+    "importance": 0.0005679768660622,
+    "rank": 119,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_F",
+    "importance": 0.000539014269335,
+    "rank": 120,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "wt_onehot_F",
+    "importance": 0.0004286061321236,
+    "rank": 121,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_M",
+    "importance": 0.0004101839508438,
+    "rank": 122,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_S",
+    "importance": 0.0003946929275018,
+    "rank": 123,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_H",
+    "importance": 0.0003364193362245,
+    "rank": 124,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_K",
+    "importance": 0.0003329272604317,
+    "rank": 125,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_V",
+    "importance": 0.0003274139177615,
+    "rank": 126,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_I",
+    "importance": 0.0002944802334105,
+    "rank": 127,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "nearest_5_top_aa_comp_C",
+    "importance": 0.0002316893030767,
+    "rank": 128,
+    "feature_group": "Nearest-neighbor environment"
+  },
+  {
+    "feature_name": "wt_onehot_P",
+    "importance": 0.0002257690236277,
+    "rank": 129,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_T",
+    "importance": 0.0001976953630818,
+    "rank": 130,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_E",
+    "importance": 0.0001271489575693,
+    "rank": 131,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "mut_onehot_W",
+    "importance": 7.892027009500432e-05,
+    "rank": 132,
+    "feature_group": "Mutation-specific biochemical changes"
+  },
+  {
+    "feature_name": "wt_onehot_Q",
+    "importance": 6.538965558681687e-05,
+    "rank": 133,
+    "feature_group": "Mutation-specific biochemical changes"
+  }
+]
