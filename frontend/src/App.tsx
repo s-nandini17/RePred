@@ -117,7 +117,7 @@ export function App() {
           }}
         >
           <div style={{ fontFamily: 'monospace', fontWeight: 700 }}>
-            reppred &bull; PROTEIN REPRESENTATION BENCHMARK &copy; 2026 &bull; PROTBENCH RESEARCH INSTRUMENT
+            RepPred &bull; PROTEIN BENCHMARK &copy; 2026 &bull; RESEARCH BENCHMARK INSTRUMENT
           </div>
           <div style={{ fontFamily: 'monospace', display: 'flex', gap: '20px' }}>
             <span>MUTATIONS: 3,433 MAPPED</span>

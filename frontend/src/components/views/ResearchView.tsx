@@ -60,7 +60,7 @@ export const ResearchView: React.FC<ResearchViewProps> = ({
         }}
       >
         <div className="badge-arch-lime" style={{ display: 'inline-block', marginBottom: '20px' }}>
-          INTERACTIVE SCIENTIFIC RESEARCH JOURNEY &bull; PROTBENCH
+          INTERACTIVE SCIENTIFIC RESEARCH JOURNEY &bull; REPPRED
         </div>
 
         <h1
@@ -85,7 +85,7 @@ export const ResearchView: React.FC<ResearchViewProps> = ({
             margin: '0 auto 20px'
           }}
         >
-          Proteins can be represented in more than one way. ProtBench asks which representation provides useful information for predicting mutation-driven protein stability ($\Delta\Delta G$).
+          Proteins can be represented in more than one way. RepPred asks which representation provides useful information for predicting mutation-driven protein stability ($\Delta\Delta G$).
         </p>
 
         <div
@@ -165,7 +165,7 @@ export const ResearchView: React.FC<ResearchViewProps> = ({
         </div>
 
         <div style={{ marginTop: '20px', fontSize: '0.85rem', color: '#52504a', fontStyle: 'italic', background: '#F3EFE6', padding: '12px 16px', borderRadius: '4px' }}>
-          *Note: ProtBench does not claim any single representation is universally superior. The goal of this project is to test them experimentally under controlled evaluation protocols.
+          *Note: RepPred does not claim any single representation is universally superior. The goal of this project is to test them experimentally under controlled evaluation protocols.
         </div>
       </section>
 
@@ -474,12 +474,12 @@ export const ResearchView: React.FC<ResearchViewProps> = ({
           SECTION 07 &bull; SCIENTIFIC SCOPE &amp; BOUNDARIES
         </div>
         <h2 style={{ fontSize: '2rem', fontWeight: 900, letterSpacing: '-0.03em', margin: '0 0 24px 0' }}>
-          What ProtBench IS vs. What It Is NOT
+          What RepPred IS vs. What It Is NOT
         </h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px' }}>
           <div style={{ background: '#F8F6F0', border: '1px solid #10b981', padding: '20px', borderRadius: '4px' }}>
-            <h3 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#10b981', marginBottom: '12px' }}>What ProtBench IS</h3>
+            <h3 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#10b981', marginBottom: '12px' }}>What RepPred IS</h3>
             <ul style={{ fontSize: '0.85rem', color: '#52504a', lineHeight: 1.8, paddingLeft: '18px' }}>
               <li>A controlled 5-representation benchmark for $\Delta\Delta G$ stability</li>
               <li>Derived strictly from 100 experimental wild-type PDBs</li>
@@ -489,7 +489,7 @@ export const ResearchView: React.FC<ResearchViewProps> = ({
           </div>
 
           <div style={{ background: '#F8F6F0', border: '1px solid #e11d48', padding: '20px', borderRadius: '4px' }}>
-            <h3 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#e11d48', marginBottom: '12px' }}>What ProtBench IS NOT</h3>
+            <h3 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#e11d48', marginBottom: '12px' }}>What RepPred IS NOT</h3>
             <ul style={{ fontSize: '0.85rem', color: '#52504a', lineHeight: 1.8, paddingLeft: '18px' }}>
               <li>Not a mutant structure generator</li>
               <li>Not AlphaFold or ESMFold</li>

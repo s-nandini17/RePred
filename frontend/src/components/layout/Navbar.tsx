@@ -43,81 +43,84 @@ export const Navbar: React.FC<NavbarProps> = ({
         >
           <div
             style={{
-              width: '32px',
-              height: '32px',
-              borderRadius: '3px',
+              width: '34px',
+              height: '34px',
+              borderRadius: '4px',
               background: '#11110F',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               fontWeight: 900,
               color: '#D8FF4F',
-              fontSize: '1.1rem',
-              fontFamily: 'monospace'
+              fontSize: '1.15rem',
+              fontFamily: 'monospace',
+              border: '1px solid #11110F'
             }}
           >
-            r
+            R
           </div>
-          <div>
-            <span
-              style={{
-                fontSize: '1.2rem',
-                fontWeight: 900,
-                letterSpacing: '-0.03em',
-                color: presentationMode ? '#FBF9F5' : '#11110F'
-              }}
-            >
-              reppred
-            </span>
-            <span
-              style={{
-                fontSize: '0.68rem',
-                color: '#11110F',
-                background: '#D8FF4F',
-                fontWeight: 800,
-                letterSpacing: '0.08em',
-                marginLeft: '8px',
-                padding: '2px 6px',
-                borderRadius: '2px',
-                fontFamily: 'monospace',
-                textTransform: 'uppercase',
-                border: '1px solid #11110F'
-              }}
-            >
-              ProtBench
-            </span>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <span
+                style={{
+                  fontSize: '1.25rem',
+                  fontWeight: 900,
+                  letterSpacing: '-0.03em',
+                  color: presentationMode ? '#FBF9F5' : '#11110F',
+                  lineHeight: 1.1
+                }}
+              >
+                RepPred
+              </span>
+              <span
+                style={{
+                  fontSize: '0.65rem',
+                  color: '#11110F',
+                  background: '#D8FF4F',
+                  fontWeight: 800,
+                  letterSpacing: '0.08em',
+                  padding: '2px 6px',
+                  borderRadius: '3px',
+                  fontFamily: 'monospace',
+                  textTransform: 'uppercase',
+                  border: '1px solid #11110F'
+                }}
+              >
+                Protein Benchmark
+              </span>
+            </div>
           </div>
         </div>
 
         {/* Minimal Architectural Navigation Links */}
-        <nav style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <nav style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
           <button
             onClick={() => onTabChange('home')}
             style={{
               padding: '8px 14px',
-              borderRadius: '3px',
+              borderRadius: '4px',
               fontSize: '0.875rem',
               fontWeight: 700,
               background: activeTab === 'home' ? (presentationMode ? '#2A2925' : '#11110F') : 'transparent',
               color: activeTab === 'home' ? '#D8FF4F' : (presentationMode ? '#a3a199' : '#52504a'),
-              border: activeTab === 'home' ? '1px solid #11110F' : 'none',
+              border: activeTab === 'home' ? '1px solid #11110F' : '1px solid transparent',
               cursor: 'pointer',
               transition: 'all 0.15s ease'
             }}
           >
-            Home
+            Story
           </button>
 
           <button
             onClick={() => onTabChange('explore')}
             style={{
               padding: '8px 14px',
-              borderRadius: '3px',
+              borderRadius: '4px',
               fontSize: '0.875rem',
               fontWeight: 700,
-              background: activeTab === 'explore' ? '#D8FF4F' : 'transparent',
-              color: activeTab === 'explore' ? '#11110F' : (presentationMode ? '#a3a199' : '#52504a'),
-              border: activeTab === 'explore' ? '1px solid #11110F' : 'none',
+              background: activeTab === 'explore' ? (presentationMode ? '#2A2925' : '#11110F') : 'transparent',
+              color: activeTab === 'explore' ? '#D8FF4F' : (presentationMode ? '#a3a199' : '#52504a'),
+              border: activeTab === 'explore' ? '1px solid #11110F' : '1px solid transparent',
               cursor: 'pointer',
               transition: 'all 0.15s ease'
             }}
@@ -126,32 +129,15 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
 
           <button
-            onClick={() => onTabChange('research')}
-            style={{
-              padding: '8px 14px',
-              borderRadius: '3px',
-              fontSize: '0.875rem',
-              fontWeight: 700,
-              background: activeTab === 'research' ? (presentationMode ? '#2A2925' : '#11110F') : 'transparent',
-              color: activeTab === 'research' ? '#D8FF4F' : (presentationMode ? '#a3a199' : '#52504a'),
-              border: activeTab === 'research' ? '1px solid #11110F' : 'none',
-              cursor: 'pointer',
-              transition: 'all 0.15s ease'
-            }}
-          >
-            Research
-          </button>
-
-          <button
             onClick={() => onTabChange('benchmark')}
             style={{
               padding: '8px 14px',
-              borderRadius: '3px',
+              borderRadius: '4px',
               fontSize: '0.875rem',
               fontWeight: 700,
               background: activeTab === 'benchmark' ? (presentationMode ? '#2A2925' : '#11110F') : 'transparent',
               color: activeTab === 'benchmark' ? '#D8FF4F' : (presentationMode ? '#a3a199' : '#52504a'),
-              border: activeTab === 'benchmark' ? '1px solid #11110F' : 'none',
+              border: activeTab === 'benchmark' ? '1px solid #11110F' : '1px solid transparent',
               cursor: 'pointer',
               transition: 'all 0.15s ease'
             }}
@@ -163,12 +149,12 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => onTabChange('interpretability')}
             style={{
               padding: '8px 14px',
-              borderRadius: '3px',
+              borderRadius: '4px',
               fontSize: '0.875rem',
               fontWeight: 700,
               background: activeTab === 'interpretability' ? (presentationMode ? '#2A2925' : '#11110F') : 'transparent',
               color: activeTab === 'interpretability' ? '#D8FF4F' : (presentationMode ? '#a3a199' : '#52504a'),
-              border: activeTab === 'interpretability' ? '1px solid #11110F' : 'none',
+              border: activeTab === 'interpretability' ? '1px solid #11110F' : '1px solid transparent',
               cursor: 'pointer',
               transition: 'all 0.15s ease'
             }}
@@ -180,12 +166,12 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => onTabChange('data')}
             style={{
               padding: '8px 14px',
-              borderRadius: '3px',
+              borderRadius: '4px',
               fontSize: '0.875rem',
               fontWeight: 700,
               background: activeTab === 'data' ? (presentationMode ? '#2A2925' : '#11110F') : 'transparent',
               color: activeTab === 'data' ? '#D8FF4F' : (presentationMode ? '#a3a199' : '#52504a'),
-              border: activeTab === 'data' ? '1px solid #11110F' : 'none',
+              border: activeTab === 'data' ? '1px solid #11110F' : '1px solid transparent',
               cursor: 'pointer',
               transition: 'all 0.15s ease'
             }}
@@ -201,7 +187,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             title="Toggle Presentation Mode"
             style={{
               padding: '8px 12px',
-              borderRadius: '3px',
+              borderRadius: '4px',
               background: presentationMode ? '#D8FF4F' : 'transparent',
               color: presentationMode ? '#11110F' : '#52504a',
               fontWeight: 700,
@@ -213,15 +199,15 @@ export const Navbar: React.FC<NavbarProps> = ({
               gap: '6px'
             }}
           >
-            <Monitor size={14} /> {presentationMode ? 'Presentation Mode ON' : 'Presentation Mode'}
+            <Monitor size={14} /> {presentationMode ? 'Dark Theme' : 'Light Theme'}
           </button>
 
           <button
             onClick={() => onTabChange('explore')}
             className="btn-arch-black"
-            style={{ padding: '8px 14px', fontSize: '0.8rem' }}
+            style={{ padding: '8px 16px', fontSize: '0.825rem' }}
           >
-            Explore <ArrowRight size={14} />
+            Explore a Mutation <ArrowRight size={14} />
           </button>
         </div>
       </div>
